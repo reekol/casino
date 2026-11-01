@@ -5694,3 +5694,37 @@ body[data-theme] #gameWorkspace .game-modal .modal-game-actions .compare-pin.sel
     padding: 0;
   }
 }
+
+
+/* Theme transparency: use translucent surfaces consistently across every theme. */
+body[data-theme="light"] {
+  --theme-panel: #fffdf8d9;
+  --theme-header: #fffdf2cc;
+  --theme-hero: #eee3f4d9;
+}
+
+body[data-theme="neon"] {
+  --theme-panel: #130d25d9;
+  --theme-header: #0b0619cc;
+  --theme-hero: #1b0b31d9;
+}
+
+body[data-theme="granite"] {
+  --theme-panel: #262a2fd9;
+  --theme-header: #191c20cc;
+  --theme-hero: #34383ed9;
+}
+
+body[data-theme="sunset"] {
+  --theme-panel: #301728d9;
+  --theme-header: #21101dcc;
+  --theme-hero: #592440d9;
+}
+
+/* The base/default theme receives the same translucent surface treatment. */
+body:not([data-theme]),
+body[data-theme="default"] {
+  --theme-panel: #13131ed9;
+  --theme-header: #09090fcc;
+  --theme-hero: #21182bd9;
+}
