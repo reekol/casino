@@ -1578,5 +1578,6 @@
     // Decorative demo jackpot ticker
     let jackpot = 2485390;
     setInterval(() => { jackpot += Math.floor(Math.random() * 8) + 1; document.getElementById('jackpotValue').textContent = 'GC ' + jackpot.toLocaleString('en-US'); }, 2400);
+    initWorkspaceSidebarToggle();
     renderHomepageCustomLinks();
 })();
