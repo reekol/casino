@@ -5496,3 +5496,172 @@ body[data-theme] #gameWorkspace .game-modal .modal-game-actions .compare-pin.sel
   #gameWorkspace .modal-copy h2 { font-size: 20px; }
   #gameWorkspace .modal-copy p { font-size: 11px; }
 }
+
+
+/* Compact mobile modal: hidden overflow and a side-by-side game summary. */
+@media (max-width: 700px) {
+  #gameWorkspace .game-modal,
+  #gameWorkspace .game-modal.auto-arranged {
+    width: calc(100vw - 16px) !important;
+    min-width: 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin: 0 0 12px !important;
+    overflow: hidden !important;
+    resize: none !important;
+  }
+
+  #gameWorkspace .game-modal .modal-content {
+    overflow: hidden;
+  }
+
+  #gameWorkspace .window-bar {
+    min-height: 42px;
+    padding: 5px 7px 5px 10px;
+    gap: 6px;
+  }
+
+  #gameWorkspace .window-title {
+    min-width: 0;
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #gameWorkspace .window-controls { gap: 5px; }
+
+  #gameWorkspace .window-fullscreen,
+  #gameWorkspace .window-bar .window-close {
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    min-height: 30px;
+  }
+
+  /* Left: thumbnail. Right: controls, details and integration buttons. */
+  #gameWorkspace .game-modal .modal-hero {
+    float: left;
+    width: 42%;
+    min-height: 220px !important;
+    height: 100%;
+    margin: 0 14px 8px 0;
+  }
+
+  #gameWorkspace .game-modal .modal-copy {
+    min-height: 220px;
+    padding: 12px 12px 12px 0;
+    overflow: hidden;
+  }
+
+  #gameWorkspace .game-modal .modal-thumbnail {
+    width: min(38vw, 155px) !important;
+    height: 150px !important;
+  }
+
+  #gameWorkspace .game-modal .modal-symbol {
+    font-size: 62px;
+  }
+
+  #gameWorkspace .game-modal .modal-game-actions {
+    position: static;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+    gap: 6px;
+  }
+
+  #gameWorkspace .game-modal .modal-game-actions .heart,
+  #gameWorkspace .game-modal .modal-game-actions .compare-pin {
+    width: 38px !important;
+    min-width: 38px !important;
+    height: 38px !important;
+    min-height: 38px !important;
+    font-size: 17px;
+  }
+
+  #gameWorkspace .game-modal .modal-kicker {
+    font-size: 8px;
+    letter-spacing: 1.8px;
+  }
+
+  #gameWorkspace .game-modal .modal-copy h2 {
+    font-size: clamp(18px, 5.2vw, 24px);
+    margin: 5px 0;
+  }
+
+  #gameWorkspace .game-modal .modal-copy p {
+    font-size: 12px;
+    line-height: 1.45;
+  }
+
+  #gameWorkspace .game-modal .modal-details {
+    margin: 8px 0;
+    gap: 6px;
+  }
+
+  #gameWorkspace .game-modal .modal-chip {
+    padding: 6px 8px;
+    font-size: 10px;
+  }
+
+  #gameWorkspace .game-modal .modal-actions,
+  #gameWorkspace .game-modal .integration-state-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    gap: 8px;
+  }
+
+  #gameWorkspace .game-modal .modal-actions .btn,
+  #gameWorkspace .game-modal .integration-state-actions .btn {
+    width: 100%;
+    min-width: 0;
+    min-height: 42px;
+    padding: 10px 8px;
+    font-size: 13px;
+  }
+
+  #gameWorkspace .game-modal .modal-copy::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #gameWorkspace .game-modal.launching-game,
+  #gameWorkspace .game-modal.auto-arranged.launching-game {
+    height: min(72vh, 560px) !important;
+    overflow: hidden !important;
+  }
+
+  #gameWorkspace .game-modal.launching-game .game-launch-frame {
+    overflow: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  #gameWorkspace .game-modal .modal-hero {
+    width: 40%;
+    min-height: 205px !important;
+    margin-right: 10px;
+  }
+
+  #gameWorkspace .game-modal .modal-copy {
+    min-height: 205px;
+  }
+
+  #gameWorkspace .game-modal .modal-thumbnail {
+    width: min(36vw, 130px) !important;
+    height: 128px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  #gameWorkspace .game-modal .modal-actions,
+  #gameWorkspace .game-modal .integration-state-actions {
+    grid-template-columns: 1fr;
+  }
+
+  #gameWorkspace .game-modal .modal-copy h2 { font-size: 20px; }
+  #gameWorkspace .game-modal .modal-copy p { font-size: 11px; }
+}
