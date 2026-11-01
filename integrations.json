@@ -109,7 +109,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/Zoopolis_4x5/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -121,7 +121,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/Zoopolis_4x5/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -161,7 +161,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/ProbablyGnome_3x4/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -173,7 +173,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/ProbablyGnome_3x4/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -213,7 +213,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/EnchantedForest_3x4/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -225,7 +225,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/EnchantedForest_3x4/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -447,7 +447,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/DragonsLuck_3x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -459,7 +459,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/DragonsLuck_3x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -499,7 +499,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/NeutrinoGlow_3x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -511,7 +511,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/NeutrinoGlow_3x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -655,7 +655,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/FundamentalParticlesOfLuck_1x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -667,7 +667,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/FundamentalParticlesOfLuck_1x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -707,7 +707,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/EvolutionaryChaos_3x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -719,7 +719,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/EvolutionaryChaos_3x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
