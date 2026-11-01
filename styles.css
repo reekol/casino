@@ -5728,3 +5728,32 @@ body[data-theme="default"] {
   --theme-header: #09090fcc;
   --theme-hero: #21182bd9;
 }
+
+
+/* Increase modal translucency while preserving contrast and readability. */
+.game-modal {
+  background: radial-gradient(ellipse at 50% 0%,#47235cb3 0,#171321b8 48%,#0d0b14b3 100%);
+  backdrop-filter: blur(10px) saturate(1.08);
+  -webkit-backdrop-filter: blur(10px) saturate(1.08);
+}
+
+.modal-hero {
+  background:
+    radial-gradient(circle at 50% 45%,var(--glow,#f6c85d44),transparent 42%),
+    linear-gradient(135deg,var(--c1,#39204bcc),var(--c2,#100d1cb8));
+}
+
+.modal-copy {
+  background: #120f1a8c;
+}
+
+.modal-close,
+#gameWorkspace .window-bar {
+  background-color: #09071191;
+}
+
+#gameWorkspace .game-modal.auto-arranged {
+  background: radial-gradient(ellipse at 50% 0%,#47235ca8 0,#171321ad 48%,#0d0b14a8 100%);
+  backdrop-filter: blur(10px) saturate(1.08);
+  -webkit-backdrop-filter: blur(10px) saturate(1.08);
+}
