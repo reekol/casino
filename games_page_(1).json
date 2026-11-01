@@ -1,6 +1,6 @@
 [
   {
-    "name": "Dragon's Treasure",
+    "name": "SpaceEntropy",
     "stars": "★★★★★",
     "tags": [
       "popular",
@@ -18,11 +18,11 @@
     "markerColor": "#35b7ff",
     "id": "UcAq9eli",
     "launch_url": "/g:UcAq9eli",
-    "thumbnail_url": "/thumbnails/UcAq9eli.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
-    "name": "Pearl of the Deep",
+    "name": "NeutronoGlow",
     "stars": "★★★★★",
     "tags": [
       "new",
@@ -40,11 +40,11 @@
     "markerColor": "#35b7ff",
     "id": "TUcaPOYQ",
     "launch_url": "/g:TUcaPOYQ",
-    "thumbnail_url": "/thumbnails/TUcaPOYQ.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/NeutronoGlow_3x3/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
-    "name": "Diamond Dynasty",
+    "name": "EvolutionaryChaos",
     "stars": "★★★★★",
     "tags": [
       "jackpot"
@@ -61,11 +61,11 @@
     "markerColor": "#35b7ff",
     "id": "lPHmGQAW",
     "launch_url": "/g:lPHmGQAW",
-    "thumbnail_url": "/thumbnails/lPHmGQAW.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/EvolutionaryChaos_3x3/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
-    "name": "Lucky Clover Gold",
+    "name": "ProbablyGnome",
     "stars": "★★★★☆",
     "tags": [
       "popular"
@@ -82,7 +82,7 @@
     "markerColor": "#ff5277",
     "id": "CASV21ww",
     "launch_url": "/g:CASV21ww",
-    "thumbnail_url": "/thumbnails/CASV21ww.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/ProbablyGnome_3x4/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
@@ -91,7 +91,7 @@
     "tags": [
       "new"
     ],
-    "descr": "25 paylines · Mystery",
+    "descr": "Zoopolis",
     "badge": "NEW",
     "symbol": "🌙",
     "colors": {
@@ -103,11 +103,11 @@
     "markerColor": "#ff5277",
     "id": "6FPzJcGk",
     "launch_url": "/g:6FPzJcGk",
-    "thumbnail_url": "/thumbnails/6FPzJcGk.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/Zoopolis_4x5/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
-    "name": "Phoenix Rising",
+    "name": "DragonsLuck",
     "stars": "★★★★★",
     "tags": [
       "popular",
@@ -125,11 +125,11 @@
     "markerColor": "#ff5277",
     "id": "Px8oWHZd",
     "launch_url": "/g:Px8oWHZd",
-    "thumbnail_url": "/thumbnails/Px8oWHZd.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/DragonsLuck_3x3/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
-    "name": "Crown of Riches",
+    "name": "FundamentalParticlesOfLuck",
     "stars": "★★★★★",
     "tags": [
       "new",
@@ -147,11 +147,11 @@
     "markerColor": "#42d99a",
     "id": "YQcSkkpc",
     "launch_url": "/g:YQcSkkpc",
-    "thumbnail_url": "/thumbnails/YQcSkkpc.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/FundamentalParticlesOfLuck_1x3/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
-    "name": "Mystic Spellbook",
+    "name": "ParticleAccelerator",
     "stars": "★★★★☆",
     "tags": [
       "popular"
@@ -168,11 +168,11 @@
     "markerColor": "#42d99a",
     "id": "xYfIHHna",
     "launch_url": "/g:xYfIHHna",
-    "thumbnail_url": "/thumbnails/xYfIHHna.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/ParticleAccelerator_3x4/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
-    "name": "Temple of Titans",
+    "name": "EnchantedForest_3x4",
     "stars": "★★★★★",
     "tags": [
       "popular"
@@ -189,7 +189,7 @@
     "markerColor": "#42d99a",
     "id": "Ck8NFLXK",
     "launch_url": "/g:Ck8NFLXK",
-    "thumbnail_url": "/thumbnails/Ck8NFLXK.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/EnchantedForest_3x4/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   }
 ]
