@@ -5262,3 +5262,50 @@ body[data-theme] #gameWorkspace .game-modal .modal-game-actions .compare-pin.sel
   font-size:13px;
   color:var(--muted,#aeb7c5)
 }
+
+
+/* Mobile workspace: give the current-page sidebar enough room to be useful. */
+@media (max-width: 700px) {
+  #gameWorkspace {
+    overflow-y: auto;
+    padding: 8px;
+  }
+
+  #gameWorkspace .workspace-sidebar {
+    width: 100%;
+    max-height: none;
+    min-height: 320px;
+    margin: 0 0 14px;
+    overflow: visible;
+  }
+
+  #gameWorkspace .workspace-game-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    max-height: 420px;
+    overflow-y: auto;
+    padding-right: 2px;
+  }
+
+  #gameWorkspace .workspace-game-item {
+    min-height: 58px;
+    padding: 8px;
+  }
+
+  #gameWorkspace .workspace-game-item img {
+    flex: 0 0 42px;
+    width: 42px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 420px) {
+  #gameWorkspace .workspace-sidebar {
+    min-height: 300px;
+  }
+
+  #gameWorkspace .workspace-game-list {
+    max-height: 380px;
+  }
+}
