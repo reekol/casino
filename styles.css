@@ -5796,3 +5796,28 @@ body[data-theme="default"] {
 #gameWorkspace .game-modal {
   box-shadow: 0 22px 70px rgba(0, 0, 0, 0.38);
 }
+
+
+/* Theme selector: suppress any legacy/native arrow so only the custom chevron is visible. */
+.theme-picker-wrap::after {
+  content: none !important;
+  display: none !important;
+}
+
+.theme-picker-wrap select,
+.theme-picker-wrap .theme-picker-trigger {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: none !important;
+}
+
+.theme-picker-trigger::before,
+.theme-picker-trigger::after {
+  content: none !important;
+  display: none !important;
+}
+
+.theme-picker-chevron {
+  display: block !important;
+}
