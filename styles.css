@@ -5665,3 +5665,32 @@ body[data-theme] #gameWorkspace .game-modal .modal-game-actions .compare-pin.sel
   #gameWorkspace .game-modal .modal-copy h2 { font-size: 20px; }
   #gameWorkspace .game-modal .modal-copy p { font-size: 11px; }
 }
+
+
+/* Mobile modal: keep favourite and comparison actions fixed at the top-right. */
+@media (max-width: 700px) {
+  #gameWorkspace .game-modal .modal-hero {
+    position: relative;
+  }
+
+  #gameWorkspace .game-modal .modal-game-actions {
+    position: absolute !important;
+    top: 7px !important;
+    right: 7px !important;
+    z-index: 35;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
+    margin: 0 !important;
+  }
+
+  #gameWorkspace .game-modal .modal-game-actions .heart,
+  #gameWorkspace .game-modal .modal-game-actions .compare-pin {
+    width: 38px !important;
+    min-width: 38px !important;
+    height: 38px !important;
+    min-height: 38px !important;
+    padding: 0;
+  }
+}
