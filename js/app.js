@@ -752,6 +752,23 @@
         pageSpinTimer = setTimeout(() => { grid.classList.remove('page-spinning'); restoreGameGridOrder(); document.getElementById('randomGames').classList.remove('active'); pageSpinTimer = null; scheduleColorMatchCheck(); }, 980);
         document.getElementById('games').scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+    function updateWorkspaceSidebarToggle() {
+        const page = document.getElementById('workspaceSidebarTogglePage');
+        if (page)
+            page.textContent = randomMode ? 'Random' : `Page ${currentPage}`;
+    }
+
+    function initWorkspaceSidebarToggle() {
+        const sidebar = document.getElementById('workspaceSidebar');
+        const toggle = document.getElementById('workspaceSidebarToggle');
+        if (!sidebar || !toggle)
+            return;
+        toggle.addEventListener('click', () => {
+            const expanded = sidebar.classList.toggle('is-expanded');
+            toggle.setAttribute('aria-expanded', String(expanded));
+        });
+    }
+
     function updateWorkspaceSidebar(shownCards) {
         const list = document.getElementById('workspaceGameList');
         const label = document.getElementById('workspacePageLabel');
@@ -759,6 +776,7 @@
             return;
 
         label.textContent = randomMode ? `Random · ${shownCards.length} games` : `Page ${currentPage}`;
+        updateWorkspaceSidebarToggle();
         list.replaceChildren();
 
         renderWorkspacePagination();

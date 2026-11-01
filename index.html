@@ -299,6 +299,12 @@
 <button class="btn btn-ghost" data-i18n="close_all" id="closeAllGames" type="button"></button>
 </div>
 <aside class="workspace-sidebar" data-i18n-aria-label="games_on_the_current_catalog_page_attr1" id="workspaceSidebar">
+<button class="workspace-sidebar-toggle" id="workspaceSidebarToggle" type="button" aria-expanded="false" aria-controls="workspaceSidebarContent">
+<span class="workspace-sidebar-toggle-label">Current page games</span>
+<span class="workspace-sidebar-toggle-page" id="workspaceSidebarTogglePage">Page 1</span>
+<span class="workspace-sidebar-toggle-icon" aria-hidden="true">⌄</span>
+</button>
+<div class="workspace-sidebar-content" id="workspaceSidebarContent">
 <div class="workspace-sidebar-heading">
 <span data-i18n="current_page"></span>
 <strong data-i18n="page_1" id="workspacePageLabel"></strong>
@@ -316,6 +322,7 @@
 <div aria-live="polite" class="workspace-custom-link-list" id="workspaceCustomLinkList"></div>
 </section>
 <div aria-live="polite" class="workspace-game-list" id="workspaceGameList"></div>
+</div>
 </aside>
 </div>
 <footer>

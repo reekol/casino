@@ -5309,3 +5309,40 @@ body[data-theme] #gameWorkspace .game-modal .modal-game-actions .compare-pin.sel
     max-height: 380px;
   }
 }
+
+
+/* Mobile: keep the modal sidebar collapsed until the user asks for it. */
+.workspace-sidebar-toggle { display: none; }
+
+@media (max-width: 700px) {
+  #gameWorkspace .workspace-sidebar {
+    min-height: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  #gameWorkspace .workspace-sidebar-toggle {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 9px;
+    padding: 12px 14px;
+    border: 1px solid #ffffff20;
+    border-radius: 12px;
+    background: #171321eF;
+    color: #e9dfc8;
+    font: inherit;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  #gameWorkspace .workspace-sidebar-toggle-label { color: #f7d27a; letter-spacing: .5px; text-transform: uppercase; }
+  #gameWorkspace .workspace-sidebar-toggle-page { margin-left: auto; color: #a8a0b5; font-weight: 700; }
+  #gameWorkspace .workspace-sidebar-toggle-icon { font-size: 18px; transition: transform .18s ease; }
+  #gameWorkspace .workspace-sidebar-content { display: none; }
+  #gameWorkspace .workspace-sidebar.is-expanded .workspace-sidebar-content { display: flex; flex-direction: column; margin-top: 10px; padding: 14px; border: 1px solid #ffffff18; border-radius: 12px; background: #171321f2; }
+  #gameWorkspace .workspace-sidebar.is-expanded .workspace-sidebar-toggle-icon { transform: rotate(180deg); }
+}
