@@ -1,6 +1,6 @@
 [
   {
-    "name": "Neon Nights",
+    "name": "Jackpot",
     "stars": "★★★★★",
     "tags": [
       "new"
@@ -17,11 +17,11 @@
     "markerColor": "#b68aff",
     "id": "plinpSnw",
     "launch_url": "/g:plinpSnw",
-    "thumbnail_url": "/thumbnails/plinpSnw.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/Jackpot_3x3/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
-    "name": "Ruby Royale",
+    "name": "ProbabilityCluster",
     "stars": "★★★★★",
     "tags": [
       "jackpot"
@@ -38,11 +38,11 @@
     "markerColor": "#b68aff",
     "id": "pIhZj1O8",
     "launch_url": "/g:pIhZj1O8",
-    "thumbnail_url": "/thumbnails/pIhZj1O8.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/ProbabilityCluster_3x4/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
-    "name": "Safari Spin",
+    "name": "TransparentFuture",
     "stars": "★★★★☆",
     "tags": [
       "popular"
@@ -59,7 +59,7 @@
     "markerColor": "#b68aff",
     "id": "YutueZC6",
     "launch_url": "/g:YutueZC6",
-    "thumbnail_url": "/thumbnails/YutueZC6.webp",
+    "thumbnail_url": "https://games.dev.seqr.link/fe/TransparentFuture_1x3/ui/build/assets/thumbnail.avif",
     "default_thumbnail_url": "/thumbnails/default.svg"
   },
   {
