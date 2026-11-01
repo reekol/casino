@@ -1,0 +1,13 @@
+services:
+  royal-reels:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: royal-reels
+    ports:
+      - "8080:8080"
+    environment:
+      RR_ADDR: ":8080"
+      RR_WEB_ROOT: "/app/site"
+      RR_API_TOKEN: "${RR_API_TOKEN:?Set RR_API_TOKEN to a secret of at least 24 characters}"
+    restart: unless-stopped

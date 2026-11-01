@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "description": "Illustrative demo account data only. This file is public, editable, and not an authentication system. Do not put real personal data, passwords, secrets, or real financial records here.",
+  "users": [
+    {
+      "id": "user_demo_001",
+      "username": "royalplayer",
+      "displayName": "Royal Player",
+      "email": "player@example.test",
+      "status": "active",
+      "createdAt": "2026-01-15T10:00:00Z",
+      "preferences": {
+        "theme": "dark",
+        "language": "en"
+      },
+      "wallets": [
+        { "id": "wallet_gc_001", "name": "Gold Credits", "currency": "GC", "balance": 12450, "isPrimary": true },
+        { "id": "wallet_sc_001", "name": "Silver Credits", "currency": "SC", "balance": 850, "isPrimary": false }
+      ],
+      "transactions": [
+        { "id": "txn_demo_1004", "walletId": "wallet_gc_001", "type": "demo_bonus", "amount": 250, "currency": "GC", "status": "completed", "description": "Daily reward demo", "createdAt": "2026-10-18T08:00:00Z" },
+        { "id": "txn_demo_1003", "walletId": "wallet_gc_001", "type": "demo_credit", "amount": 500, "currency": "GC", "status": "completed", "description": "Promotional demo credits", "createdAt": "2026-10-17T15:30:00Z" },
+        { "id": "txn_demo_1002", "walletId": "wallet_sc_001", "type": "demo_adjustment", "amount": -50, "currency": "SC", "status": "completed", "description": "Sample wallet adjustment", "createdAt": "2026-10-16T12:10:00Z" },
+        { "id": "txn_demo_1001", "walletId": "wallet_gc_001", "type": "demo_reward", "amount": 100, "currency": "GC", "status": "pending", "description": "Sample reward awaiting review", "createdAt": "2026-10-15T09:45:00Z" }
+      ]
+    },
+    {
+      "id": "user_demo_002",
+      "username": "jackpotfan",
+      "displayName": "Jackpot Fan",
+      "email": "jackpot@example.test",
+      "status": "active",
+      "createdAt": "2026-03-02T14:20:00Z",
+      "preferences": {
+        "theme": "neon",
+        "language": "en"
+      },
+      "wallets": [
+        { "id": "wallet_gc_002", "name": "Gold Credits", "currency": "GC", "balance": 6800, "isPrimary": true }
+      ],
+      "transactions": [
+        { "id": "txn_demo_2002", "walletId": "wallet_gc_002", "type": "demo_bonus", "amount": 250, "currency": "GC", "status": "completed", "description": "Daily reward demo", "createdAt": "2026-10-18T07:30:00Z" },
+        { "id": "txn_demo_2001", "walletId": "wallet_gc_002", "type": "demo_credit", "amount": 1000, "currency": "GC", "status": "completed", "description": "Sample promotional credits", "createdAt": "2026-10-14T18:00:00Z" }
+      ]
+    }
+  ]
+}

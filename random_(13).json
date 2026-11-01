@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Dragon's Treasure",
+    "stars": "★★★★★",
+    "tags": [
+      "popular",
+      "jackpot"
+    ],
+    "descr": "5 reels · Fantasy",
+    "badge": "HOT",
+    "symbol": "🐉",
+    "colors": {
+      "--c1": "#4d1c5e",
+      "--c2": "#130d29",
+      "--glow": "#f8a52e66"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "UcAq9eli",
+    "launch_url": "/g:UcAq9eli",
+    "thumbnail_url": "/thumbnails/UcAq9eli.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Velvet Vampire",
+    "stars": "★★★★☆",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Gothic",
+    "badge": "NEW",
+    "symbol": "🧛",
+    "colors": {
+      "--c1": "#50214f",
+      "--c2": "#160d22",
+      "--glow": "#df78ff66"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "5j6lPPBN",
+    "launch_url": "/g:5j6lPPBN",
+    "thumbnail_url": "/thumbnails/5j6lPPBN.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Jungle Jewel",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Jungle",
+    "badge": "",
+    "symbol": "🦜",
+    "colors": {
+      "--c1": "#15513f",
+      "--c2": "#0b1e1c",
+      "--glow": "#55e3a466"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "Nec0VBbZ",
+    "launch_url": "/g:Nec0VBbZ",
+    "thumbnail_url": "/thumbnails/Nec0VBbZ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Electric 7s",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Classic",
+    "badge": "HOT",
+    "symbol": "🎰",
+    "colors": {
+      "--c1": "#5b2020",
+      "--c2": "#1c0d17",
+      "--glow": "#ff565666"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "sdVkrwWc",
+    "launch_url": "/g:sdVkrwWc",
+    "thumbnail_url": "/thumbnails/sdVkrwWc.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mermaid's Wish",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "",
+    "symbol": "🧜",
+    "colors": {
+      "--c1": "#164e65",
+      "--c2": "#10182b",
+      "--glow": "#5be5e366"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "WHXVq1IF",
+    "launch_url": "/g:WHXVq1IF",
+    "thumbnail_url": "/thumbnails/WHXVq1IF.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Thunder Gods",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Gods",
+    "badge": "JACKPOT",
+    "symbol": "⚡",
+    "colors": {
+      "--c1": "#4b3c79",
+      "--c2": "#160d28",
+      "--glow": "#c3a2ff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "ISxDQSI9",
+    "launch_url": "/g:ISxDQSI9",
+    "thumbnail_url": "/thumbnails/ISxDQSI9.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Viking Vault",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "5 reels · Adventure",
+    "badge": "JACKPOT",
+    "symbol": "🪓",
+    "colors": {
+      "--c1": "#34454b",
+      "--c2": "#10151c",
+      "--glow": "#8fd7d766"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "KMalItOZ",
+    "launch_url": "/g:KMalItOZ",
+    "thumbnail_url": "/thumbnails/KMalItOZ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Diamond Dynasty",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Ways to win · Luxe",
+    "badge": "MEGA WIN",
+    "symbol": "💎",
+    "colors": {
+      "--c1": "#5c1b35",
+      "--c2": "#1c0c22",
+      "--glow": "#ff4f8e55"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "lPHmGQAW",
+    "launch_url": "/g:lPHmGQAW",
+    "thumbnail_url": "/thumbnails/lPHmGQAW.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Cherry Boulevard",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Retro",
+    "badge": "",
+    "symbol": "🍒",
+    "colors": {
+      "--c1": "#70263b",
+      "--c2": "#200c18",
+      "--glow": "#ff6a8d66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "PvMqPLxp",
+    "launch_url": "/g:PvMqPLxp",
+    "thumbnail_url": "/thumbnails/PvMqPLxp.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

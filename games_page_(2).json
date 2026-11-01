@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Neon Nights",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Neon",
+    "badge": "NEW",
+    "symbol": "🌃",
+    "colors": {
+      "--c1": "#183c68",
+      "--c2": "#160e30",
+      "--glow": "#56d5ff66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "plinpSnw",
+    "launch_url": "/g:plinpSnw",
+    "thumbnail_url": "/thumbnails/plinpSnw.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Ruby Royale",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Gems",
+    "badge": "JACKPOT",
+    "symbol": "❤️",
+    "colors": {
+      "--c1": "#671e39",
+      "--c2": "#1b0c20",
+      "--glow": "#ff557e66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "pIhZj1O8",
+    "launch_url": "/g:pIhZj1O8",
+    "thumbnail_url": "/thumbnails/pIhZj1O8.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Safari Spin",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "25 paylines · Wilds",
+    "badge": "",
+    "symbol": "🦁",
+    "colors": {
+      "--c1": "#6b491b",
+      "--c2": "#1d1710",
+      "--glow": "#f8bd4e66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "YutueZC6",
+    "launch_url": "/g:YutueZC6",
+    "thumbnail_url": "/thumbnails/YutueZC6.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Starfall Riches",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Cosmic",
+    "badge": "NEW",
+    "symbol": "🌠",
+    "colors": {
+      "--c1": "#25256d",
+      "--c2": "#110d2a",
+      "--glow": "#8a83ff66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "OYE9HvD4",
+    "launch_url": "/g:OYE9HvD4",
+    "thumbnail_url": "/thumbnails/OYE9HvD4.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Viking Vault",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "5 reels · Adventure",
+    "badge": "JACKPOT",
+    "symbol": "🪓",
+    "colors": {
+      "--c1": "#34454b",
+      "--c2": "#10151c",
+      "--glow": "#8fd7d766"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "KMalItOZ",
+    "launch_url": "/g:KMalItOZ",
+    "thumbnail_url": "/thumbnails/KMalItOZ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Candy Comet",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "Sweet wins · Candy",
+    "badge": "",
+    "symbol": "🍭",
+    "colors": {
+      "--c1": "#6e2863",
+      "--c2": "#251033",
+      "--glow": "#ff75cf66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "2cqNuBMV",
+    "launch_url": "/g:2cqNuBMV",
+    "thumbnail_url": "/thumbnails/2cqNuBMV.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Golden Pharaoh",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Ways to win · Egypt",
+    "badge": "MEGA WIN",
+    "symbol": "𓂀",
+    "colors": {
+      "--c1": "#79531b",
+      "--c2": "#24110b",
+      "--glow": "#f9d35d66"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "LX8XMPKp",
+    "launch_url": "/g:LX8XMPKp",
+    "thumbnail_url": "/thumbnails/LX8XMPKp.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Arctic Aurora",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Ice",
+    "badge": "NEW",
+    "symbol": "❄️",
+    "colors": {
+      "--c1": "#1d5368",
+      "--c2": "#10172b",
+      "--glow": "#6ee8ff66"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "4pbzW3vt",
+    "launch_url": "/g:4pbzW3vt",
+    "thumbnail_url": "/thumbnails/4pbzW3vt.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Jungle Jewel",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Jungle",
+    "badge": "",
+    "symbol": "🦜",
+    "colors": {
+      "--c1": "#15513f",
+      "--c2": "#0b1e1c",
+      "--glow": "#55e3a466"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "Nec0VBbZ",
+    "launch_url": "/g:Nec0VBbZ",
+    "thumbnail_url": "/thumbnails/Nec0VBbZ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

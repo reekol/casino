@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Jungle Jewel",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Jungle",
+    "badge": "",
+    "symbol": "🦜",
+    "colors": {
+      "--c1": "#15513f",
+      "--c2": "#0b1e1c",
+      "--glow": "#55e3a466"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "Nec0VBbZ",
+    "launch_url": "/g:Nec0VBbZ",
+    "thumbnail_url": "/thumbnails/Nec0VBbZ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Ocean Odyssey",
+    "stars": "★★★★☆",
+    "tags": [
+      "new"
+    ],
+    "descr": "Ways to win · Ocean",
+    "badge": "NEW",
+    "symbol": "🐬",
+    "colors": {
+      "--c1": "#155879",
+      "--c2": "#0b1528",
+      "--glow": "#57c9ff66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "STq6Yp2I",
+    "launch_url": "/g:STq6Yp2I",
+    "thumbnail_url": "/thumbnails/STq6Yp2I.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Shadow Samurai",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "5 reels · Action",
+    "badge": "NEW",
+    "symbol": "🥷",
+    "colors": {
+      "--c1": "#30334c",
+      "--c2": "#0d101b",
+      "--glow": "#8b9cff66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "7xNjLrS8",
+    "launch_url": "/g:7xNjLrS8",
+    "thumbnail_url": "/thumbnails/7xNjLrS8.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Pearl of the Deep",
+    "stars": "★★★★★",
+    "tags": [
+      "new",
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "NEW",
+    "symbol": "🌊",
+    "colors": {
+      "--c1": "#16495a",
+      "--c2": "#10152c",
+      "--glow": "#5df3e555"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "TUcaPOYQ",
+    "launch_url": "/g:TUcaPOYQ",
+    "thumbnail_url": "/thumbnails/TUcaPOYQ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Arctic Aurora",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Ice",
+    "badge": "NEW",
+    "symbol": "❄️",
+    "colors": {
+      "--c1": "#1d5368",
+      "--c2": "#10172b",
+      "--glow": "#6ee8ff66"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "4pbzW3vt",
+    "launch_url": "/g:4pbzW3vt",
+    "thumbnail_url": "/thumbnails/4pbzW3vt.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Honey Harvest",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Sweet",
+    "badge": "",
+    "symbol": "🍯",
+    "colors": {
+      "--c1": "#75501b",
+      "--c2": "#24140d",
+      "--glow": "#ffd66b66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "WpX1HIXj",
+    "launch_url": "/g:WpX1HIXj",
+    "thumbnail_url": "/thumbnails/WpX1HIXj.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Imperial Jade",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Royal",
+    "badge": "JACKPOT",
+    "symbol": "🟢",
+    "colors": {
+      "--c1": "#155143",
+      "--c2": "#0b1c20",
+      "--glow": "#62e2b166"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "WSFs1Cvr",
+    "launch_url": "/g:WSFs1Cvr",
+    "thumbnail_url": "/thumbnails/WSFs1Cvr.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Neon Nights",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Neon",
+    "badge": "NEW",
+    "symbol": "🌃",
+    "colors": {
+      "--c1": "#183c68",
+      "--c2": "#160e30",
+      "--glow": "#56d5ff66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "plinpSnw",
+    "launch_url": "/g:plinpSnw",
+    "thumbnail_url": "/thumbnails/plinpSnw.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Golden Pharaoh",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Ways to win · Egypt",
+    "badge": "MEGA WIN",
+    "symbol": "𓂀",
+    "colors": {
+      "--c1": "#79531b",
+      "--c2": "#24110b",
+      "--glow": "#f9d35d66"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "LX8XMPKp",
+    "launch_url": "/g:LX8XMPKp",
+    "thumbnail_url": "/thumbnails/LX8XMPKp.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

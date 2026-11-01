@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Electric 7s",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Classic",
+    "badge": "HOT",
+    "symbol": "🎰",
+    "colors": {
+      "--c1": "#5b2020",
+      "--c2": "#1c0d17",
+      "--glow": "#ff565666"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "sdVkrwWc",
+    "launch_url": "/g:sdVkrwWc",
+    "thumbnail_url": "/thumbnails/sdVkrwWc.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Velvet Vampire",
+    "stars": "★★★★☆",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Gothic",
+    "badge": "NEW",
+    "symbol": "🧛",
+    "colors": {
+      "--c1": "#50214f",
+      "--c2": "#160d22",
+      "--glow": "#df78ff66"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "5j6lPPBN",
+    "launch_url": "/g:5j6lPPBN",
+    "thumbnail_url": "/thumbnails/5j6lPPBN.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mermaid's Wish",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "",
+    "symbol": "🧜",
+    "colors": {
+      "--c1": "#164e65",
+      "--c2": "#10182b",
+      "--glow": "#5be5e366"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "WHXVq1IF",
+    "launch_url": "/g:WHXVq1IF",
+    "thumbnail_url": "/thumbnails/WHXVq1IF.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Thunder Gods",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Gods",
+    "badge": "JACKPOT",
+    "symbol": "⚡",
+    "colors": {
+      "--c1": "#4b3c79",
+      "--c2": "#160d28",
+      "--glow": "#c3a2ff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "ISxDQSI9",
+    "launch_url": "/g:ISxDQSI9",
+    "thumbnail_url": "/thumbnails/ISxDQSI9.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Wild West Gold",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Western",
+    "badge": "HOT",
+    "symbol": "🤠",
+    "colors": {
+      "--c1": "#6b3b1a",
+      "--c2": "#21130e",
+      "--glow": "#f6a24b66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "IPVCkL93",
+    "launch_url": "/g:IPVCkL93",
+    "thumbnail_url": "/thumbnails/IPVCkL93.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Crystal Cavern",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "25 paylines · Gems",
+    "badge": "NEW",
+    "symbol": "🔮",
+    "colors": {
+      "--c1": "#3e276b",
+      "--c2": "#101022",
+      "--glow": "#b08cff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "ObN8y0iO",
+    "launch_url": "/g:ObN8y0iO",
+    "thumbnail_url": "/thumbnails/ObN8y0iO.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Cherry Boulevard",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Retro",
+    "badge": "",
+    "symbol": "🍒",
+    "colors": {
+      "--c1": "#70263b",
+      "--c2": "#200c18",
+      "--glow": "#ff6a8d66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "PvMqPLxp",
+    "launch_url": "/g:PvMqPLxp",
+    "thumbnail_url": "/thumbnails/PvMqPLxp.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Cosmic Carnival",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Cosmic",
+    "badge": "NEW",
+    "symbol": "🎡",
+    "colors": {
+      "--c1": "#49316e",
+      "--c2": "#15102a",
+      "--glow": "#f28dff66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "TdFNOwAN",
+    "launch_url": "/g:TdFNOwAN",
+    "thumbnail_url": "/thumbnails/TdFNOwAN.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Imperial Jade",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Royal",
+    "badge": "JACKPOT",
+    "symbol": "🟢",
+    "colors": {
+      "--c1": "#155143",
+      "--c2": "#0b1c20",
+      "--glow": "#62e2b166"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "WSFs1Cvr",
+    "launch_url": "/g:WSFs1Cvr",
+    "thumbnail_url": "/thumbnails/WSFs1Cvr.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "description": "Royal Reels demo win rules. All rewards are illustrative demo Gold Coins (GC), not real-money payouts.",
+  "lineTypes": [
+    { "id": "diagonal", "label": "Diagonal", "length": 3, "priority": 1, "description": "Three matching markers on either diagonal of a 3×3 page." },
+    { "id": "vertical", "label": "Vertical", "length": 3, "priority": 2, "description": "Three matching markers in a vertical column." },
+    { "id": "horizontal", "label": "Horizontal", "length": 3, "priority": 3, "description": "Three matching markers in a horizontal row." }
+  ],
+  "colorPrizes": [
+    { "name": "Sapphire", "color": "#35b7ff", "prize": 100, "symbol": "●", "description": "Three matching Sapphire markers" },
+    { "name": "Ruby", "color": "#ff5277", "prize": 150, "symbol": "●", "description": "Three matching Ruby markers" },
+    { "name": "Emerald", "color": "#42d99a", "prize": 200, "symbol": "●", "description": "Three matching Emerald markers" },
+    { "name": "Amethyst", "color": "#b68aff", "prize": 250, "symbol": "●", "description": "Three matching Amethyst markers" },
+    { "name": "Amber", "color": "#ffc45e", "prize": 300, "symbol": "●", "description": "Three matching Amber markers" },
+    { "name": "Turquoise", "color": "#42e5d0", "prize": 500, "symbol": "●", "description": "Three matching Turquoise markers" }
+  ],
+  "rules": {
+    "matchLength": 3,
+    "sameMarkerColorRequired": true,
+    "oneWinPerRandomSpin": true,
+    "prizeSource": "colorPrizes",
+    "prioritySource": "lineTypes.priority"
+  }
+}

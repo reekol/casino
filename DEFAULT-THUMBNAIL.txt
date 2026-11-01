@@ -1,0 +1,1 @@
+Default thumbnail fallback: thumbnails/default.svg. Game cards use each game's thumbnail_url and fall back to this file if the individual image is missing or fails to load. Add game-specific images under thumbnails/ using the IDs in the JSON files.

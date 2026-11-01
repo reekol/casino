@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Honey Harvest",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Sweet",
+    "badge": "",
+    "symbol": "🍯",
+    "colors": {
+      "--c1": "#75501b",
+      "--c2": "#24140d",
+      "--glow": "#ffd66b66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "WpX1HIXj",
+    "launch_url": "/g:WpX1HIXj",
+    "thumbnail_url": "/thumbnails/WpX1HIXj.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Shadow Samurai",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "5 reels · Action",
+    "badge": "NEW",
+    "symbol": "🥷",
+    "colors": {
+      "--c1": "#30334c",
+      "--c2": "#0d101b",
+      "--glow": "#8b9cff66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "7xNjLrS8",
+    "launch_url": "/g:7xNjLrS8",
+    "thumbnail_url": "/thumbnails/7xNjLrS8.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Big Top Bonanza",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "25 paylines · Circus",
+    "badge": "HOT",
+    "symbol": "🎪",
+    "colors": {
+      "--c1": "#792a38",
+      "--c2": "#211024",
+      "--glow": "#ffb04d66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "Cau95dOb",
+    "launch_url": "/g:Cau95dOb",
+    "thumbnail_url": "/thumbnails/Cau95dOb.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Ocean Odyssey",
+    "stars": "★★★★☆",
+    "tags": [
+      "new"
+    ],
+    "descr": "Ways to win · Ocean",
+    "badge": "NEW",
+    "symbol": "🐬",
+    "colors": {
+      "--c1": "#155879",
+      "--c2": "#0b1528",
+      "--glow": "#57c9ff66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "STq6Yp2I",
+    "launch_url": "/g:STq6Yp2I",
+    "thumbnail_url": "/thumbnails/STq6Yp2I.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Enchanted Orchard",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Fantasy",
+    "badge": "",
+    "symbol": "🍎",
+    "colors": {
+      "--c1": "#315b2a",
+      "--c2": "#111d17",
+      "--glow": "#a6e56b66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "0mbzjjQI",
+    "launch_url": "/g:0mbzjjQI",
+    "thumbnail_url": "/thumbnails/0mbzjjQI.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

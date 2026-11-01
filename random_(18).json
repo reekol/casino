@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Phoenix Rising",
+    "stars": "★★★★★",
+    "tags": [
+      "popular",
+      "jackpot"
+    ],
+    "descr": "5 reels · Adventure",
+    "badge": "",
+    "symbol": "🔥",
+    "colors": {
+      "--c1": "#5b1f19",
+      "--c2": "#1e0d14",
+      "--glow": "#ff9a3c55"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "Px8oWHZd",
+    "launch_url": "/g:Px8oWHZd",
+    "thumbnail_url": "/thumbnails/Px8oWHZd.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mermaid's Wish",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "",
+    "symbol": "🧜",
+    "colors": {
+      "--c1": "#164e65",
+      "--c2": "#10182b",
+      "--glow": "#5be5e366"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "WHXVq1IF",
+    "launch_url": "/g:WHXVq1IF",
+    "thumbnail_url": "/thumbnails/WHXVq1IF.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Dragon's Treasure",
+    "stars": "★★★★★",
+    "tags": [
+      "popular",
+      "jackpot"
+    ],
+    "descr": "5 reels · Fantasy",
+    "badge": "HOT",
+    "symbol": "🐉",
+    "colors": {
+      "--c1": "#4d1c5e",
+      "--c2": "#130d29",
+      "--glow": "#f8a52e66"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "UcAq9eli",
+    "launch_url": "/g:UcAq9eli",
+    "thumbnail_url": "/thumbnails/UcAq9eli.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Honey Harvest",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Sweet",
+    "badge": "",
+    "symbol": "🍯",
+    "colors": {
+      "--c1": "#75501b",
+      "--c2": "#24140d",
+      "--glow": "#ffd66b66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "WpX1HIXj",
+    "launch_url": "/g:WpX1HIXj",
+    "thumbnail_url": "/thumbnails/WpX1HIXj.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Safari Spin",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "25 paylines · Wilds",
+    "badge": "",
+    "symbol": "🦁",
+    "colors": {
+      "--c1": "#6b491b",
+      "--c2": "#1d1710",
+      "--glow": "#f8bd4e66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "YutueZC6",
+    "launch_url": "/g:YutueZC6",
+    "thumbnail_url": "/thumbnails/YutueZC6.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Big Top Bonanza",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "25 paylines · Circus",
+    "badge": "HOT",
+    "symbol": "🎪",
+    "colors": {
+      "--c1": "#792a38",
+      "--c2": "#211024",
+      "--glow": "#ffb04d66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "Cau95dOb",
+    "launch_url": "/g:Cau95dOb",
+    "thumbnail_url": "/thumbnails/Cau95dOb.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Starfall Riches",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Cosmic",
+    "badge": "NEW",
+    "symbol": "🌠",
+    "colors": {
+      "--c1": "#25256d",
+      "--c2": "#110d2a",
+      "--glow": "#8a83ff66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "OYE9HvD4",
+    "launch_url": "/g:OYE9HvD4",
+    "thumbnail_url": "/thumbnails/OYE9HvD4.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mystic Spellbook",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "Bonus rounds · Magic",
+    "badge": "",
+    "symbol": "🪄",
+    "colors": {
+      "--c1": "#4b2c69",
+      "--c2": "#171026",
+      "--glow": "#da80ff55"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "xYfIHHna",
+    "launch_url": "/g:xYfIHHna",
+    "thumbnail_url": "/thumbnails/xYfIHHna.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Thunder Gods",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Gods",
+    "badge": "JACKPOT",
+    "symbol": "⚡",
+    "colors": {
+      "--c1": "#4b3c79",
+      "--c2": "#160d28",
+      "--glow": "#c3a2ff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "ISxDQSI9",
+    "launch_url": "/g:ISxDQSI9",
+    "thumbnail_url": "/thumbnails/ISxDQSI9.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

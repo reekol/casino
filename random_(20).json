@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Honey Harvest",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Sweet",
+    "badge": "",
+    "symbol": "🍯",
+    "colors": {
+      "--c1": "#75501b",
+      "--c2": "#24140d",
+      "--glow": "#ffd66b66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "WpX1HIXj",
+    "launch_url": "/g:WpX1HIXj",
+    "thumbnail_url": "/thumbnails/WpX1HIXj.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Lucky Clover Gold",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Classic",
+    "badge": "",
+    "symbol": "🍀",
+    "colors": {
+      "--c1": "#674116",
+      "--c2": "#21120c",
+      "--glow": "#ffdd6a66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "CASV21ww",
+    "launch_url": "/g:CASV21ww",
+    "thumbnail_url": "/thumbnails/CASV21ww.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Safari Spin",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "25 paylines · Wilds",
+    "badge": "",
+    "symbol": "🦁",
+    "colors": {
+      "--c1": "#6b491b",
+      "--c2": "#1d1710",
+      "--glow": "#f8bd4e66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "YutueZC6",
+    "launch_url": "/g:YutueZC6",
+    "thumbnail_url": "/thumbnails/YutueZC6.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Neon Nights",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Neon",
+    "badge": "NEW",
+    "symbol": "🌃",
+    "colors": {
+      "--c1": "#183c68",
+      "--c2": "#160e30",
+      "--glow": "#56d5ff66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "plinpSnw",
+    "launch_url": "/g:plinpSnw",
+    "thumbnail_url": "/thumbnails/plinpSnw.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Imperial Jade",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Royal",
+    "badge": "JACKPOT",
+    "symbol": "🟢",
+    "colors": {
+      "--c1": "#155143",
+      "--c2": "#0b1c20",
+      "--glow": "#62e2b166"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "WSFs1Cvr",
+    "launch_url": "/g:WSFs1Cvr",
+    "thumbnail_url": "/thumbnails/WSFs1Cvr.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mystic Spellbook",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "Bonus rounds · Magic",
+    "badge": "",
+    "symbol": "🪄",
+    "colors": {
+      "--c1": "#4b2c69",
+      "--c2": "#171026",
+      "--glow": "#da80ff55"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "xYfIHHna",
+    "launch_url": "/g:xYfIHHna",
+    "thumbnail_url": "/thumbnails/xYfIHHna.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Big Top Bonanza",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "25 paylines · Circus",
+    "badge": "HOT",
+    "symbol": "🎪",
+    "colors": {
+      "--c1": "#792a38",
+      "--c2": "#211024",
+      "--glow": "#ffb04d66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "Cau95dOb",
+    "launch_url": "/g:Cau95dOb",
+    "thumbnail_url": "/thumbnails/Cau95dOb.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Crystal Cavern",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "25 paylines · Gems",
+    "badge": "NEW",
+    "symbol": "🔮",
+    "colors": {
+      "--c1": "#3e276b",
+      "--c2": "#101022",
+      "--glow": "#b08cff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "ObN8y0iO",
+    "launch_url": "/g:ObN8y0iO",
+    "thumbnail_url": "/thumbnails/ObN8y0iO.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Phoenix Rising",
+    "stars": "★★★★★",
+    "tags": [
+      "popular",
+      "jackpot"
+    ],
+    "descr": "5 reels · Adventure",
+    "badge": "",
+    "symbol": "🔥",
+    "colors": {
+      "--c1": "#5b1f19",
+      "--c2": "#1e0d14",
+      "--glow": "#ff9a3c55"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "Px8oWHZd",
+    "launch_url": "/g:Px8oWHZd",
+    "thumbnail_url": "/thumbnails/Px8oWHZd.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

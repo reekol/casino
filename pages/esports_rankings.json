@@ -1,0 +1,117 @@
+{
+  "season": 9,
+  "year": 2077,
+  "updated_at": "00:42 UTC",
+  "rows": [
+    {
+      "rank": 1,
+      "initials": "AB",
+      "name": "AXEL_BLADE",
+      "handle": "AXL_BLADE",
+      "score": "18,750,200",
+      "wins": 60,
+      "level": 25,
+      "trend": "▲ 4",
+      "avatar_style": "gold"
+    },
+    {
+      "rank": 2,
+      "initials": "LS",
+      "name": "LUNA_SKY",
+      "handle": "LUNA_SKY",
+      "score": "16,750,200",
+      "wins": 133,
+      "level": 25,
+      "trend": "▲ 2",
+      "avatar_style": ""
+    },
+    {
+      "rank": 3,
+      "initials": "NR",
+      "name": "NEON_RIOT",
+      "handle": "NEON_RIOT",
+      "score": "10,750,200",
+      "wins": 100,
+      "level": 35,
+      "trend": "▲ 1",
+      "avatar_style": "pink"
+    },
+    {
+      "rank": 4,
+      "initials": "CH",
+      "name": "CYBER_HUNT",
+      "handle": "CYBER_HUNT",
+      "score": "9,750,200",
+      "wins": 96,
+      "level": 35,
+      "trend": "—",
+      "avatar_style": ""
+    },
+    {
+      "rank": 5,
+      "initials": "CH",
+      "name": "CYBER_HUNT",
+      "handle": "CTREK_HUNT",
+      "score": "7,650,200",
+      "wins": 80,
+      "level": 30,
+      "trend": "▲ 3",
+      "avatar_style": "pink"
+    },
+    {
+      "rank": 6,
+      "initials": "AB",
+      "name": "AXEL_BLADE",
+      "handle": "AXL_BLADE",
+      "score": "6,250,200",
+      "wins": 30,
+      "level": 25,
+      "trend": "▼ 1",
+      "avatar_style": "gold"
+    },
+    {
+      "rank": 7,
+      "initials": "LS",
+      "name": "LUNA_SKY",
+      "handle": "LUNA_SKY",
+      "score": "7,750,200",
+      "wins": 70,
+      "level": 25,
+      "trend": "▲ 5",
+      "avatar_style": ""
+    },
+    {
+      "rank": 8,
+      "initials": "NR",
+      "name": "NEON_RIOT",
+      "handle": "NEON_RIOT",
+      "score": "4,750,200",
+      "wins": 28,
+      "level": 27,
+      "trend": "▲ 2",
+      "avatar_style": "pink"
+    },
+    {
+      "rank": 9,
+      "initials": "CH",
+      "name": "CYBER_HUNT",
+      "handle": "CYBER_HUNT",
+      "score": "2,750,200",
+      "wins": 10,
+      "level": 25,
+      "trend": "—",
+      "avatar_style": ""
+    },
+    {
+      "rank": 10,
+      "initials": "AB",
+      "name": "AXEL_BLADE",
+      "handle": "AXL_BLADE",
+      "score": "2,150,200",
+      "wins": 8,
+      "level": 24,
+      "trend": "▲ 1",
+      "avatar_style": "gold"
+    }
+  ]
+}

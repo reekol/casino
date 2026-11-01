@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "description": "Royal Reels competition statistics. All figures and player names are illustrative placeholders, not live player data or real prizes.",
+  "kicker": "Royal arena · weekly challenge",
+  "title": "Competition statistics",
+  "subtitle": "Track the arena standings and activity in this illustrative demo competition.",
+  "badge": "DEMO EVENT",
+  "metrics": [
+    {
+      "label": "Prize pool",
+      "icon": "♛",
+      "value": "GC 250,000",
+      "caption": "Illustrative event pool"
+    },
+    {
+      "label": "Competitors",
+      "icon": "♙",
+      "value": "1,284",
+      "caption": "Sample event attendance"
+    }
+  ],
+  "leaderboardTitle": "🏆 Arena leaderboard",
+  "leaderboardCaption": "Sample standings",
+  "leaderboard": [
+    {
+      "rank": 1,
+      "avatar": "👑",
+      "name": "GoldenNova",
+      "points": "98,450"
+    },
+    {
+      "rank": 2,
+      "avatar": "🦊",
+      "name": "LuckyViolet",
+      "points": "87,210"
+    },
+    {
+      "rank": 3,
+      "avatar": "🐉",
+      "name": "DragonAce",
+      "points": "75,680"
+    },
+    {
+      "rank": 4,
+      "avatar": "🌙",
+      "name": "MoonJackpot",
+      "points": "69,125"
+    },
+    {
+      "rank": 5,
+      "avatar": "💎",
+      "name": "GemChaser",
+      "points": "61,840"
+    }
+  ],
+  "activityTitle": "⚡ Competition pulse",
+  "activityCaption": "Sample activity",
+  "activity": [
+    {
+      "icon": "🎯",
+      "title": "Top score recorded",
+      "description": "GoldenNova · Arena leaderboard",
+      "value": "98.4k"
+    },
+    {
+      "icon": "💎",
+      "title": "Jackpot challenge",
+      "description": "GemChaser · Crystal Vault",
+      "value": "+12.5k"
+    },
+    {
+      "icon": "🔥",
+      "title": "Streak of the day",
+      "description": "LuckyViolet · 8 rounds",
+      "value": "x8"
+    }
+  ],
+  "note": "All competition names, standings, points, player counts, and prize-pool figures above are illustrative placeholders, not live player data or real prizes. Your demo-spin metrics update locally in this browser session."
+}

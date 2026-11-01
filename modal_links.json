@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Casino Landing",
+    "url": "./pages/casino-landing.html"
+  },
+  {
+    "name": "Esports Rankings",
+    "url": "./pages/esports-rankings.html"
+  },
+  {
+    "name": "VIP Club",
+    "url": "./pages/vip-club.html"
+  },
+  {
+    "name": "Daily Rewards",
+    "url": "./pages/daily-rewards.html"
+  },
+  {
+    "name": "Tournaments",
+    "url": "./pages/tournaments.html"
+  },
+  {
+    "name": "Jackpot Gallery",
+    "url": "./pages/jackpots.html"
+  },
+  {
+    "name": "Game Providers",
+    "url": "./pages/providers.html"
+  },
+  {
+    "name": "Player Center",
+    "url": "./pages/player-center.html"
+  }
+]

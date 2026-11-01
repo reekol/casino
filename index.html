@@ -1,0 +1,337 @@
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title data-i18n="royal_reels_casino_lobby"></title>
+<link href="./styles.css?v=homepage-custom-links-1" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<div class="brand">
+<div class="brand-mark">
+♛
+        </div><span data-i18n="royal"></span><span data-i18n="reels"></span>
+</div>
+<nav class="nav-links">
+<a class="active" data-i18n="lobby" href="#lobby"></a><a data-i18n="slots" href="#games"></a><a data-i18n="favorites" href="#favorites"></a><a data-i18n="jackpot" href="#jackpot"></a>
+</nav>
+<div class="actions"><div class="language-picker-wrap" id="languagePickerWrap">
+<span aria-hidden="true" class="language-picker-icon">文</span>
+<button aria-expanded="false" aria-haspopup="listbox" class="language-picker-trigger" data-i18n-aria-label="language_aria" id="languagePickerTrigger" type="button"><span id="languagePickerCurrent" data-i18n="language_english"></span><span aria-hidden="true" class="language-picker-chevron"></span></button>
+<div class="language-picker-menu" hidden id="languagePickerMenu" role="listbox" data-i18n-aria-label="language_aria">
+<button class="language-picker-option is-selected" data-language-value="en" role="option" aria-selected="true" type="button"><span class="language-option-flag">EN</span><span data-i18n="language_english"></span><span aria-hidden="true" class="language-option-check">✓</span></button>
+<button class="language-picker-option" data-language-value="fr" role="option" aria-selected="false" type="button"><span class="language-option-flag">FR</span><span data-i18n="language_french"></span><span aria-hidden="true" class="language-option-check">✓</span></button>
+<button class="language-picker-option" data-language-value="ru" role="option" aria-selected="false" type="button"><span class="language-option-flag">RU</span><span data-i18n="language_russian"></span><span aria-hidden="true" class="language-option-check">✓</span></button>
+<button class="language-picker-option" data-language-value="bg" role="option" aria-selected="false" type="button"><span class="language-option-flag">BG</span><span data-i18n="language_bulgarian"></span><span aria-hidden="true" class="language-option-check">✓</span></button>
+</div></div>
+<div class="theme-picker-wrap" id="themePickerWrap">
+<span aria-hidden="true" class="theme-picker-icon">◐</span>
+<button aria-expanded="false" aria-haspopup="listbox" class="theme-picker-trigger" data-i18n-aria-label="choose_page_theme_attr1" id="themePickerTrigger" type="button">
+<span data-i18n="dark" id="themePickerCurrent"></span>
+<span aria-hidden="true" class="theme-picker-chevron"></span>
+</button>
+<div class="theme-picker-menu" data-i18n-aria-label="page_themes_attr1" hidden="" id="themePickerMenu" role="listbox">
+<button class="theme-picker-option" data-theme-value="dark" role="option" type="button"><span class="theme-option-swatch theme-swatch-dark"></span><span data-i18n="dark_2"></span><span aria-hidden="true" class="theme-option-check">✓</span></button>
+<button class="theme-picker-option" data-theme-value="light" role="option" type="button"><span class="theme-option-swatch theme-swatch-light"></span><span data-i18n="light"></span><span aria-hidden="true" class="theme-option-check">✓</span></button>
+<button class="theme-picker-option" data-theme-value="neon" role="option" type="button"><span class="theme-option-swatch theme-swatch-neon"></span><span data-i18n="neon"></span><span aria-hidden="true" class="theme-option-check">✓</span></button>
+<button class="theme-picker-option" data-theme-value="clear" role="option" type="button"><span class="theme-option-swatch theme-swatch-clear"></span><span data-i18n="clear"></span><span aria-hidden="true" class="theme-option-check">✓</span></button>
+<button class="theme-picker-option" data-theme-value="granite" role="option" type="button"><span class="theme-option-swatch theme-swatch-granite"></span><span data-i18n="granite"></span><span aria-hidden="true" class="theme-option-check">✓</span></button>
+<button class="theme-picker-option" data-theme-value="sunset" role="option" type="button"><span class="theme-option-swatch theme-swatch-sunset"></span><span data-i18n="sunset"></span><span aria-hidden="true" class="theme-option-check">✓</span></button>
+<button class="theme-picker-option" data-theme-value="waterfall" role="option" type="button"><span class="theme-option-swatch theme-swatch-waterfall"></span><span data-i18n="waterfall"></span><span aria-hidden="true" class="theme-option-check">✓</span></button>
+</div>
+</div>
+<div class="balance">
+◈ 12,450 <small data-i18n="gc"></small>
+</div>
+<button class="btn btn-gold" data-i18n="sign_in" id="signIn"></button>
+</div>
+</header>
+<main id="lobby">
+<section class="hero">
+<div class="hero-copy">
+<div class="eyebrow" data-i18n="the_house_of_big_dreams"></div>
+<h1 data-i18n="everything_is_a_game"></h1>
+<p data-i18n="step_into_a_world_of_golden_jackpots_legendary_s"></p>
+<div class="hero-cta">
+<button class="btn btn-gold" data-i18n="explore_slots" onclick="document.querySelector('#games').scrollIntoView({behavior:'smooth'})"></button>
+<button class="btn btn-ghost" data-i18n="daily_reward" id="daily"></button>
+</div>
+</div>
+<div class="hero-art" id="heroArt">
+<div class="halo">
+</div>
+<div class="coin c1">
+♛
+          </div>
+<div class="coin c2">
+★
+          </div>
+<div class="coin c3">
+◆
+          </div>
+<div class="light l1">
+</div>
+<div class="light l2">
+</div>
+<div class="light l3">
+</div>
+<div class="slot-machine">
+<div class="slot-top" data-i18n="royal_jackpot"></div>
+<div class="reels">
+<div class="reel">
+🍒
+              </div>
+<div class="reel">
+7️⃣
+              </div>
+<div class="reel">
+💎
+              </div>
+</div>
+<div class="machine-bottom" data-i18n="spin_shine_repeat"></div>
+<button class="hero-spin-btn" data-i18n="spin_the_reels" id="heroMiniSpin" type="button"></button>
+<div aria-live="polite" class="hero-spin-result" data-i18n="try_your_luck_demo_only" id="heroSpinResult" role="status"></div>
+</div>
+</div>
+</section>
+<section class="stats" id="jackpot">
+<div class="stat">
+<div class="stat-icon">
+💰
+          </div>
+<div>
+<small data-i18n="progressive_jackpot"></small><strong data-i18n="gc_2_485_390" id="jackpotValue"></strong>
+</div>
+</div>
+<div class="stat">
+<div class="stat-icon">
+🎰
+          </div>
+<div>
+<small data-i18n="games_in_the_lobby"></small><strong data-i18n="240_titles"></strong>
+</div>
+</div>
+<div class="stat">
+<div class="stat-icon">
+⚡
+          </div>
+<div>
+<small data-i18n="lobby_status"></small><strong data-i18n="all_systems_go" style="color:#75e6ad"></strong>
+</div>
+</div>
+</section>
+<section id="games">
+<div class="section-head">
+<div>
+<h2 data-i18n="featured_games"></h2>
+<p data-i18n="hand_picked_favorites_from_the_royal_reels_colle"></p>
+</div>
+<a class="view-all" data-i18n="view_all" href="#games" id="viewAll"></a>
+</div>
+<section class="homepage-custom-links" data-i18n-aria-label="custom_links_attr2">
+<div class="homepage-custom-links-heading">
+<span data-i18n="explore"></span>
+<strong data-i18n="quick_links"></strong>
+</div>
+<div aria-live="polite" class="homepage-custom-link-list" id="homepageCustomLinkList">
+<p class="homepage-custom-links-status" data-i18n="loading_links"></p>
+</div>
+</section>
+<div class="filters" id="filters">
+<button class="filter active" data-filter="all" data-i18n="all_games"></button>
+<button class="filter" data-filter="popular" data-i18n="popular"></button>
+<button class="filter" data-filter="new" data-i18n="new_arrivals"></button>
+<button class="filter" data-filter="jackpot" data-i18n="jackpot_2"></button>
+<button class="filter" data-filter="favorites" data-i18n="favorites_2" id="favorites"></button>
+<button class="btn btn-gold favorites-open-all" data-i18n="open_all_favorites_in_auto_arrange" hidden="" id="openAllFavorites" type="button"></button>
+</div>
+<div class="games" id="gameGrid">
+</div>
+<div class="pagination" data-i18n-aria-label="game_pages_attr1" id="pagination">
+<button class="page-btn" data-i18n-aria-label="previous_page_attr1" id="prevPage" type="button">
+←
+          </button>
+<div id="pageNumbers" style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center">
+</div>
+<span class="page-status" data-i18n="page_1_of_4" id="pageStatus"></span>
+<button class="page-btn" data-i18n-aria-label="next_page_attr1" id="nextPage" type="button">
+→
+          </button>
+<div aria-live="polite" class="win-message-inline" hidden="" id="winMessageInline" role="status">
+<span class="win-description" id="winMessageInlineText"></span><span class="win-prize" data-i18n-aria-label="prize_attr1" id="winMessageInlinePrize"></span>
+<button data-i18n-aria-label="close_win_message_attr1" data-i18n-title="close_attr1" id="winMessageInlineClose" type="button">
+×
+            </button>
+</div>
+<button class="page-btn random-page-btn" data-i18n-aria-label="spin_for_nine_random_games_attr1" data-i18n-title="spin_for_nine_random_games_attr2" id="randomGames" type="button">
+<svg aria-hidden="true" class="spin-icon" focusable="false" viewbox="0 0 64 64"><path d="M15.4 11.2C15.4 8.4 18.4 6.8 20.8 8.4L46.1 26.1C49.5 28.5 49.5 33.5 46.1 35.9L20.8 53.6C18.4 55.2 15.4 53.6 15.4 50.8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"></path></svg>
+</button>
+</div>
+<section aria-labelledby="gameComparisonTitle" class="game-comparison" hidden="" id="gameComparison">
+<div class="compare-head">
+<div class="compare-title-wrap">
+<span aria-hidden="true" class="compare-title-icon">⇄</span>
+<div>
+<h3 data-i18n="compare_games" id="gameComparisonTitle"></h3>
+<p data-i18n="pin_games_from_any_page_to_compare_their_feature"></p>
+</div>
+</div>
+<div class="compare-head-actions">
+<span class="compare-count" data-i18n="0_of_4_selected" id="compareCount"></span>
+<button class="compare-action" data-i18n="open_all_in_auto_arrange" data-i18n-title="open_all_selected_games_in_automatically_arrange_attr1" id="openComparedGames" type="button"></button>
+<button class="compare-action" data-i18n="clear_all" id="clearComparison" type="button"></button>
+<button class="compare-action" data-i18n="hide" id="closeComparison" type="button"></button>
+</div>
+</div>
+<div class="compare-empty" data-i18n="use_the_pin_icon_on_any_game_card_to_add_it_here" id="compareEmpty"></div>
+<div class="compare-table-wrap" hidden="" id="compareTableWrap">
+<table class="compare-table" data-i18n-aria-label="selected_game_comparison_attr1" id="compareTable">
+</table>
+</div>
+</section>
+<button class="compare-action compare-restore" data-i18n="show_comparison" hidden="" id="showComparison" type="button"></button>
+<section aria-labelledby="linePrizesTitle" class="line-prizes" id="linePrizes">
+<div class="line-prizes-head">
+<div>
+<div class="line-prizes-kicker" data-i18n="random_spin_demo_rewards"></div>
+<h3 data-i18n="color_line_prize_list" id="linePrizesTitle"></h3>
+<p data-i18n="match_three_game_marker_colors_in_a_line_to_win_"></p>
+</div>
+<span class="line-prizes-chip" data-i18n="prize_table"></span>
+</div>
+<div class="line-prize-grid line-prize-colors" id="linePrizeGrid">
+<p data-i18n="loading_win_rules"></p>
+</div>
+<div class="line-prizes-foot" id="linePrizesFoot">
+<span data-i18n="all_prizes_are_illustrative_demo_values_prize_de"></span><strong data-i18n="loading_prize_table" id="maxColorPrize"></strong>
+</div>
+</section>
+</section>
+<section aria-labelledby="competitionTitle" class="competition" id="competitionStats">
+<div class="competition-head">
+<div>
+<div class="competition-kicker" data-i18n="loading_statistics"></div>
+<h2 data-i18n="competition_statistics" id="competitionTitle"></h2>
+<p data-i18n="loading_demo_competition_data"></p>
+</div>
+<span class="competition-badge" data-i18n="demo_event"></span>
+</div>
+<div id="competitionStatsContent">
+<p data-i18n="loading_statistics_json"></p>
+</div>
+</section>
+<section class="promo">
+<div class="promo-left">
+<div class="spark">
+🎁
+          </div>
+<div>
+<h3 data-i18n="a_little_something_extra"></h3>
+<p data-i18n="your_daily_reward_is_ready_to_be_revealed_come_b"></p>
+</div>
+</div>
+<button class="btn btn-gold" data-i18n="claim_reward" id="claim"></button>
+</section>
+</main>
+<button aria-controls="spinHistoryPanel" aria-expanded="false" class="history-toggle" id="historyToggle" type="button">
+<span class="history-toggle-icon">↻</span><span data-i18n="spin_history"></span><span class="history-count" id="historyCount">0</span>
+</button>
+<aside aria-hidden="true" class="spin-history-panel" data-i18n-aria-label="spin_history_attr4" id="spinHistoryPanel">
+<div class="history-header">
+<div>
+<div class="history-eyebrow" data-i18n="royal_reels"></div>
+<h2 data-i18n="spin_history_2"></h2>
+<p data-i18n="recent_demo_activity"></p>
+</div>
+<button class="history-close" data-i18n-aria-label="close_spin_history_attr1" id="historyClose" type="button">
+×
+        </button>
+</div>
+<div class="history-tabs" data-i18n-aria-label="sidebar_activity_attr1" role="tablist">
+<button aria-controls="spinHistoryView" aria-selected="true" class="history-tab active" id="spinHistoryTab" role="tab" type="button"><span data-i18n="spin_history_3"></span><span id="historyCount">0</span>
+</button>
+<button aria-controls="transactionsView" aria-selected="false" class="history-tab" id="transactionsTab" role="tab" type="button"><span data-i18n="transactions"></span><span id="transactionCount">0</span>
+</button>
+</div>
+<section aria-labelledby="spinHistoryTab" class="history-tab-view" id="spinHistoryView" role="tabpanel">
+<div class="history-summary">
+<span class="history-summary-icon">↻</span>
+<div>
+<strong data-i18n="0_spins" id="historyTotal"></strong><small data-i18n="session_total_demo_only"></small>
+</div>
+</div>
+<div class="history-notice" data-i18n="demo_spins_only_no_wagers_payouts_or_real_credit"></div>
+<div class="history-list" id="historyList">
+<div class="history-empty">
+<span>🎰</span><strong data-i18n="no_spins_yet"></strong>
+<p><span data-i18n="launch_a_demo_and_press"></span><b data-i18n="spin_demo"></b><span data-i18n="to_see_activity_here"></span></p>
+</div>
+</div>
+<div class="history-footer">
+<span data-i18n="latest_first"></span>
+<button data-i18n="clear_history" id="historyClear" type="button"></button>
+</div>
+</section>
+<section aria-labelledby="transactionsTab" class="history-tab-view" hidden="" id="transactionsView" role="tabpanel">
+<div class="history-summary">
+<span class="history-summary-icon">◈</span>
+<div>
+<strong data-i18n="transactions_2" id="transactionTotal"></strong><small data-i18n="sample_account_demo_data" id="transactionUserLabel"></small>
+</div>
+</div>
+<div class="history-notice" data-i18n="illustrative_transactions_loaded_from_users_json"></div>
+<div class="history-list transaction-list" id="transactionList">
+<div class="history-empty">
+<span>↔</span><strong data-i18n="loading_transactions"></strong>
+</div>
+</div>
+<div class="history-footer">
+<span data-i18n="newest_first"></span><span data-i18n="read_only_demo"></span>
+</div>
+</section>
+</aside>
+<div aria-hidden="false" class="modal-backdrop" id="gameWorkspace">
+<div class="workspace-toolbar" id="workspaceToolbar">
+<span data-i18n="open_games_0" id="openGameCount"></span>
+<button aria-checked="false" class="arrange-switch" data-i18n-title="keep_open_game_windows_automatically_arranged_attr1" id="autoArrangeGames" role="switch" type="button">
+<span aria-hidden="true" class="arrange-switch-track"><span class="arrange-switch-thumb"></span></span><span class="arrange-switch-label" data-i18n="auto_arrange"></span>
+</button>
+<button class="btn btn-ghost" data-i18n="close_all" id="closeAllGames" type="button"></button>
+</div>
+<aside class="workspace-sidebar" data-i18n-aria-label="games_on_the_current_catalog_page_attr1" id="workspaceSidebar">
+<div class="workspace-sidebar-heading">
+<span data-i18n="current_page"></span>
+<strong data-i18n="page_1" id="workspacePageLabel"></strong>
+</div>
+<div class="workspace-sidebar-controls" data-i18n-aria-label="game_page_navigation_attr1">
+<button class="workspace-random-btn" data-i18n="random" id="workspaceRandomGames" type="button"></button>
+<div class="workspace-page-navigation">
+<button class="workspace-page-arrow" data-i18n-aria-label="previous_page_attr2" data-i18n-title="previous_page_attr3" id="workspacePrevPage" type="button">‹</button>
+<div class="workspace-page-numbers" data-i18n-aria-label="catalog_pages_attr1" id="workspacePageNumbers"></div>
+<button class="workspace-page-arrow" data-i18n-aria-label="next_page_attr2" data-i18n-title="next_page_attr3" id="workspaceNextPage" type="button">›</button>
+</div>
+</div>
+<section class="workspace-custom-links" data-i18n-aria-label="custom_links_attr3">
+<div class="workspace-custom-links-heading" data-i18n="custom_links"></div>
+<div aria-live="polite" class="workspace-custom-link-list" id="workspaceCustomLinkList"></div>
+</section>
+<div aria-live="polite" class="workspace-game-list" id="workspaceGameList"></div>
+</aside>
+</div>
+<footer>
+<div>
+<strong data-i18n="royal_reels_2"></strong><span data-i18n="a_showcase_casino_lobby_concept"></span></div>
+<div data-i18n="demo_interface_only_no_real_money_gambling_or_pa"></div>
+</footer>
+<div aria-live="polite" class="toast" id="toast" role="status">
+<span id="toastMessage"></span>
+<button class="toast-close" data-i18n-aria-label="close_message_attr1" data-i18n-title="close_attr2" id="toastClose" type="button">
+×
+      </button>
+</div>
+<span data-i18n="game_catalog_is_loaded_from_four_json_pages_9_ga"></span>
+<script src="./js/i18n.js"></script>
+<script src="./js/app.js"></script>
+<script id="theme-controller" src="./js/theme-controller.js"></script>
+</body>
+</html>

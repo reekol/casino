@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Dragon's Treasure",
+    "stars": "★★★★★",
+    "tags": [
+      "popular",
+      "jackpot"
+    ],
+    "descr": "5 reels · Fantasy",
+    "badge": "HOT",
+    "symbol": "🐉",
+    "colors": {
+      "--c1": "#4d1c5e",
+      "--c2": "#130d29",
+      "--glow": "#f8a52e66"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "UcAq9eli",
+    "launch_url": "/g:UcAq9eli",
+    "thumbnail_url": "/thumbnails/UcAq9eli.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Golden Pharaoh",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Ways to win · Egypt",
+    "badge": "MEGA WIN",
+    "symbol": "𓂀",
+    "colors": {
+      "--c1": "#79531b",
+      "--c2": "#24110b",
+      "--glow": "#f9d35d66"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "LX8XMPKp",
+    "launch_url": "/g:LX8XMPKp",
+    "thumbnail_url": "/thumbnails/LX8XMPKp.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Ocean Odyssey",
+    "stars": "★★★★☆",
+    "tags": [
+      "new"
+    ],
+    "descr": "Ways to win · Ocean",
+    "badge": "NEW",
+    "symbol": "🐬",
+    "colors": {
+      "--c1": "#155879",
+      "--c2": "#0b1528",
+      "--glow": "#57c9ff66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "STq6Yp2I",
+    "launch_url": "/g:STq6Yp2I",
+    "thumbnail_url": "/thumbnails/STq6Yp2I.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Crown of Riches",
+    "stars": "★★★★★",
+    "tags": [
+      "new",
+      "jackpot"
+    ],
+    "descr": "Progressive · Royal",
+    "badge": "JACKPOT",
+    "symbol": "👑",
+    "colors": {
+      "--c1": "#154b3e",
+      "--c2": "#0c1d25",
+      "--glow": "#5df3bd55"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "YQcSkkpc",
+    "launch_url": "/g:YQcSkkpc",
+    "thumbnail_url": "/thumbnails/YQcSkkpc.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mystic Spellbook",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "Bonus rounds · Magic",
+    "badge": "",
+    "symbol": "🪄",
+    "colors": {
+      "--c1": "#4b2c69",
+      "--c2": "#171026",
+      "--glow": "#da80ff55"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "xYfIHHna",
+    "launch_url": "/g:xYfIHHna",
+    "thumbnail_url": "/thumbnails/xYfIHHna.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Cosmic Carnival",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Cosmic",
+    "badge": "NEW",
+    "symbol": "🎡",
+    "colors": {
+      "--c1": "#49316e",
+      "--c2": "#15102a",
+      "--glow": "#f28dff66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "TdFNOwAN",
+    "launch_url": "/g:TdFNOwAN",
+    "thumbnail_url": "/thumbnails/TdFNOwAN.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Wild West Gold",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Western",
+    "badge": "HOT",
+    "symbol": "🤠",
+    "colors": {
+      "--c1": "#6b3b1a",
+      "--c2": "#21130e",
+      "--glow": "#f6a24b66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "IPVCkL93",
+    "launch_url": "/g:IPVCkL93",
+    "thumbnail_url": "/thumbnails/IPVCkL93.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Jungle Jewel",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Jungle",
+    "badge": "",
+    "symbol": "🦜",
+    "colors": {
+      "--c1": "#15513f",
+      "--c2": "#0b1e1c",
+      "--glow": "#55e3a466"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "Nec0VBbZ",
+    "launch_url": "/g:Nec0VBbZ",
+    "thumbnail_url": "/thumbnails/Nec0VBbZ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Moonlight Fortune",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "25 paylines · Mystery",
+    "badge": "NEW",
+    "symbol": "🌙",
+    "colors": {
+      "--c1": "#1f2d62",
+      "--c2": "#100f25",
+      "--glow": "#7a8bff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "6FPzJcGk",
+    "launch_url": "/g:6FPzJcGk",
+    "thumbnail_url": "/thumbnails/6FPzJcGk.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

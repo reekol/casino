@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Enchanted Orchard",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Fantasy",
+    "badge": "",
+    "symbol": "🍎",
+    "colors": {
+      "--c1": "#315b2a",
+      "--c2": "#111d17",
+      "--glow": "#a6e56b66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "0mbzjjQI",
+    "launch_url": "/g:0mbzjjQI",
+    "thumbnail_url": "/thumbnails/0mbzjjQI.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mermaid's Wish",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "",
+    "symbol": "🧜",
+    "colors": {
+      "--c1": "#164e65",
+      "--c2": "#10182b",
+      "--glow": "#5be5e366"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "WHXVq1IF",
+    "launch_url": "/g:WHXVq1IF",
+    "thumbnail_url": "/thumbnails/WHXVq1IF.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Phoenix Rising",
+    "stars": "★★★★★",
+    "tags": [
+      "popular",
+      "jackpot"
+    ],
+    "descr": "5 reels · Adventure",
+    "badge": "",
+    "symbol": "🔥",
+    "colors": {
+      "--c1": "#5b1f19",
+      "--c2": "#1e0d14",
+      "--glow": "#ff9a3c55"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "Px8oWHZd",
+    "launch_url": "/g:Px8oWHZd",
+    "thumbnail_url": "/thumbnails/Px8oWHZd.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Golden Pharaoh",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Ways to win · Egypt",
+    "badge": "MEGA WIN",
+    "symbol": "𓂀",
+    "colors": {
+      "--c1": "#79531b",
+      "--c2": "#24110b",
+      "--glow": "#f9d35d66"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "LX8XMPKp",
+    "launch_url": "/g:LX8XMPKp",
+    "thumbnail_url": "/thumbnails/LX8XMPKp.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Jungle Jewel",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Jungle",
+    "badge": "",
+    "symbol": "🦜",
+    "colors": {
+      "--c1": "#15513f",
+      "--c2": "#0b1e1c",
+      "--glow": "#55e3a466"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "Nec0VBbZ",
+    "launch_url": "/g:Nec0VBbZ",
+    "thumbnail_url": "/thumbnails/Nec0VBbZ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Arctic Aurora",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Ice",
+    "badge": "NEW",
+    "symbol": "❄️",
+    "colors": {
+      "--c1": "#1d5368",
+      "--c2": "#10172b",
+      "--glow": "#6ee8ff66"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "4pbzW3vt",
+    "launch_url": "/g:4pbzW3vt",
+    "thumbnail_url": "/thumbnails/4pbzW3vt.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Viking Vault",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "5 reels · Adventure",
+    "badge": "JACKPOT",
+    "symbol": "🪓",
+    "colors": {
+      "--c1": "#34454b",
+      "--c2": "#10151c",
+      "--glow": "#8fd7d766"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "KMalItOZ",
+    "launch_url": "/g:KMalItOZ",
+    "thumbnail_url": "/thumbnails/KMalItOZ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Candy Comet",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "Sweet wins · Candy",
+    "badge": "",
+    "symbol": "🍭",
+    "colors": {
+      "--c1": "#6e2863",
+      "--c2": "#251033",
+      "--glow": "#ff75cf66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "2cqNuBMV",
+    "launch_url": "/g:2cqNuBMV",
+    "thumbnail_url": "/thumbnails/2cqNuBMV.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Velvet Vampire",
+    "stars": "★★★★☆",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Gothic",
+    "badge": "NEW",
+    "symbol": "🧛",
+    "colors": {
+      "--c1": "#50214f",
+      "--c2": "#160d22",
+      "--glow": "#df78ff66"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "5j6lPPBN",
+    "launch_url": "/g:5j6lPPBN",
+    "thumbnail_url": "/thumbnails/5j6lPPBN.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#050b18">
+<title data-i18n="page_title">Global Esports — Season Rankings</title>
+<style>
+:root{--bg:#050b18;--panel:rgba(7,18,38,.86);--cyan:#54eaff;--blue:#398dff;--violet:#d36bff;--muted:#7890b4;--line:rgba(100,190,255,.25)}
+*{box-sizing:border-box}html{min-height:100%;background:var(--bg)}body{margin:0;min-height:100vh;color:#eaf8ff;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:radial-gradient(ellipse at 50% 58%,#12315b 0,transparent 34%),radial-gradient(ellipse at 12% 30%,#10254a 0,transparent 30%),linear-gradient(180deg,#030816,#071327 62%,#030813);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.45;background-image:linear-gradient(rgba(68,159,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(68,159,255,.045) 1px,transparent 1px);background-size:58px 58px;mask-image:linear-gradient(transparent,#000 20%,#000 80%,transparent)}
+.room{position:fixed;inset:0;pointer-events:none;overflow:hidden;perspective:800px;opacity:.8}.beam{position:absolute;top:-15%;width:1px;height:90%;background:linear-gradient(transparent,#2e7dcb88,transparent);box-shadow:0 0 24px #299cff;transform:rotate(18deg)}.beam.a{left:8%}.beam.b{right:10%;transform:rotate(-18deg)}.floor{position:absolute;bottom:-8%;left:-10%;width:120%;height:35%;background:repeating-linear-gradient(0deg,transparent 0 48px,#1c6aa533 49px 50px),repeating-linear-gradient(90deg,transparent 0 90px,#1c6aa522 91px 92px);transform:perspective(280px) rotateX(58deg);transform-origin:bottom;mask-image:linear-gradient(transparent,#000)}
+.shell{width:min(1420px,100%);margin:auto;padding:26px clamp(16px,4vw,54px) 42px;position:relative}
+.topline{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:4px 0 26px}.brand{display:flex;align-items:center;gap:14px;font-weight:800;letter-spacing:.02em;font-size:clamp(20px,3vw,31px)}.brand-mark{width:48px;height:48px;border:1px solid #67dfff;border-radius:14px;display:grid;place-items:center;color:var(--cyan);background:linear-gradient(145deg,#0c3154,#091226);box-shadow:0 0 22px #31baff55,inset 0 0 18px #39bfff22}.brand-mark svg{width:28px}.language-switch{display:flex;justify-content:flex-end;gap:5px;margin-bottom:8px}.language-switch button{border:1px solid #3b739d;background:#091a30;color:#8fb8da;border-radius:5px;padding:4px 7px;font-size:9px;cursor:pointer}.language-switch button[aria-pressed="true"]{color:#fff;border-color:#5ceaff;background:#164064;box-shadow:0 0 10px #35cfff55}.season{text-align:right;color:#8ba6ca;font-size:12px;letter-spacing:.22em;text-transform:uppercase}.season strong{display:block;color:#dffaff;font-size:15px;letter-spacing:.08em;margin-top:5px}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 16px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(100deg,#08152adf,#101e36dd);box-shadow:0 12px 38px #0008;backdrop-filter:blur(14px);margin-bottom:24px}.navlinks{display:flex;gap:8px;flex-wrap:wrap}.nav a{color:#b8d5f2;text-decoration:none;font-size:12px;padding:9px 12px;border-radius:8px;letter-spacing:.05em}.nav a.active,.nav a:hover{color:#fff;background:#183c61;box-shadow:inset 0 0 0 1px #55dfff55}.live{font-size:11px;color:#a6c4e3;white-space:nowrap}.live i{display:inline-block;width:7px;height:7px;border-radius:50%;background:#5affc2;box-shadow:0 0 12px #5affc2;margin-right:8px}
+.stage{display:grid;grid-template-columns:minmax(130px,190px) minmax(0,1fr) minmax(130px,190px);gap:17px;align-items:stretch}.side{display:flex;flex-direction:column;gap:14px}.widget{border:1px solid #4e9bce66;background:linear-gradient(145deg,#0b1c35eF,#081326eF);border-radius:12px;padding:13px;box-shadow:0 0 24px #1688db20,inset 0 0 18px #218ad51a;min-height:130px;position:relative;overflow:hidden}.widget:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 35%,#5beaff0b,transparent 70%);pointer-events:none}.widget h3{font-size:10px;letter-spacing:.18em;color:#9bc8ef;text-transform:uppercase;margin:0 0 12px}.metric{font-size:23px;font-weight:800;color:#e9fcff;text-shadow:0 0 15px #55dfff77}.sub{font-size:10px;color:#7899bf;margin-top:4px}.chart{height:58px;display:flex;align-items:end;gap:5px;margin-top:10px}.chart span{flex:1;border-radius:3px 3px 0 0;background:linear-gradient(#65f5ff,#287bff 75%,#754cff);box-shadow:0 0 9px #43dfff66}.chart span:nth-child(1){height:35%}.chart span:nth-child(2){height:58%}.chart span:nth-child(3){height:43%}.chart span:nth-child(4){height:78%}.chart span:nth-child(5){height:62%}.chart span:nth-child(6){height:92%}.chart span:nth-child(7){height:72%}
+.hex{width:70px;height:70px;margin:4px auto 8px;display:grid;place-items:center;border:1px solid #64e9ff;border-radius:18px;transform:rotate(30deg);box-shadow:0 0 18px #4adfff55,inset 0 0 16px #4adfff33;color:#9af6ff}.hex span{transform:rotate(-30deg);font-size:22px}.minirows{display:grid;gap:8px}.minirow{height:7px;border-radius:5px;background:#18385b;overflow:hidden}.minirow b{display:block;height:100%;background:linear-gradient(90deg,#a65cff,#51eaff);box-shadow:0 0 8px #5deaff}
+.board{border:1px solid #69eaff;border-radius:16px;padding:18px;background:linear-gradient(145deg,rgba(10,26,49,.96),rgba(10,15,36,.96));box-shadow:0 0 0 1px #b16cff77,0 0 20px #2cdfff77,0 0 65px #8a4dff55,inset 0 0 30px #2c9bff20;position:relative;min-width:0}.board:before{content:"";position:absolute;inset:-5px;border:1px solid #b85cff77;border-radius:19px;filter:blur(5px);pointer-events:none}.boardhead{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:2px 2px 16px}.boardtitle{display:flex;align-items:center;gap:11px}.crest{width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,#a94dff,#1c9fff);display:grid;place-items:center;font-weight:900;box-shadow:0 0 18px #8e59ff88}.board h1{font-size:clamp(18px,2.4vw,29px);margin:0;letter-spacing:.09em;text-transform:uppercase;text-shadow:0 0 18px #50dfff99}.boardhead small{display:block;color:#8cb2d7;font-size:9px;letter-spacing:.18em;margin-top:4px}.season-tag{font-size:11px;color:#c4eaff;border:1px solid #5bdfff88;border-radius:7px;padding:8px 10px;background:#0b2a49;white-space:nowrap}
+.tablewrap{overflow-x:auto}table{width:100%;border-collapse:separate;border-spacing:0 6px;min-width:520px}th{text-align:left;color:#80a9d0;font-size:9px;letter-spacing:.16em;text-transform:uppercase;padding:0 10px 7px;font-weight:700}td{background:linear-gradient(90deg,#132b4b,#10213c);padding:10px 9px;font-size:11px;border-top:1px solid #4c9ee755;border-bottom:1px solid #4c9ee755}td:first-child{border-left:1px solid #4c9ee755;border-radius:8px 0 0 8px;width:43px;color:#d7efff;font-weight:800}td:last-child{border-right:1px solid #4c9ee755;border-radius:0 8px 8px 0}.rank1 td{background:linear-gradient(90deg,#30335d,#17294b);border-color:#c27cffaa}.player{display:flex;align-items:center;gap:9px;font-weight:750;letter-spacing:.04em}.avatar{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;font-size:10px;color:white;background:linear-gradient(135deg,#286bba,#9a5cff);box-shadow:0 0 10px #45cfff55}.avatar.pink{background:linear-gradient(135deg,#9d3eb9,#ec65c7)}.avatar.gold{background:linear-gradient(135deg,#b57b25,#ffdf7b);color:#241600}.player small{display:block;color:#789cbe;font-size:8px;font-weight:500;margin-top:2px}.score{color:#b7f7ff;font-variant-numeric:tabular-nums}.level{color:#b7d8f5}.trend{color:#63ffc6;font-size:10px}.boardfoot{display:flex;justify-content:space-between;gap:12px;color:#7698ba;font-size:9px;margin:12px 3px 0;letter-spacing:.08em}
+.bottom{display:grid;grid-template-columns:1fr 1fr 1fr;gap:15px;margin-top:20px}.bottomcard{border:1px solid #398cc966;background:linear-gradient(110deg,#0a1b32ed,#101b34ed);border-radius:12px;padding:12px 14px;display:flex;align-items:center;gap:12px;box-shadow:0 8px 25px #0006}.bottomicon{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(135deg,#174f76,#6d4ac1);font-size:18px;box-shadow:0 0 15px #4bdfff44}.bottomcard strong{display:block;font-size:11px;letter-spacing:.05em}.bottomcard small{display:block;color:#7fa4c9;font-size:9px;margin-top:4px}.bottomcard em{margin-left:auto;color:#67f1ff;font-size:11px;font-style:normal}
+.footer{text-align:center;color:#58799d;font-size:9px;letter-spacing:.16em;margin-top:28px}
+@media(max-width:900px){.stage{grid-template-columns:1fr 1fr}.board{grid-column:1/-1;grid-row:1}.side{display:grid;grid-template-columns:1fr 1fr}.bottom{grid-template-columns:1fr 1fr}.side.right{grid-column:1/-1;grid-template-columns:repeat(3,1fr)}}
+@media(max-width:580px){.shell{padding:17px 12px 30px}.topline{margin-bottom:16px}.brand-mark{width:40px;height:40px}.season{font-size:9px}.nav{align-items:flex-start;flex-direction:column}.navlinks{gap:2px}.nav a{font-size:10px;padding:8px}.side{grid-template-columns:1fr 1fr}.side.right{grid-template-columns:1fr 1fr}.board{padding:12px 9px}.boardhead{align-items:flex-start}.board h1{font-size:17px}.season-tag{font-size:9px;padding:6px}.bottom{grid-template-columns:1fr}.bottomcard{padding:10px}.footer{line-height:1.8}}
+</style>
+</head>
+<body>
+<div class="room" aria-hidden="true"><i class="beam a"></i><i class="beam b"></i><div class="floor"></div></div>
+<main class="shell">
+<header class="topline">
+  <div class="brand"><div class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M16 3 28 10v12L16 29 4 22V10L16 3Z" stroke="currentColor" stroke-width="1.5"/><path d="m16 8 7 4v8l-7 4-7-4v-8l7-4Z" stroke="currentColor"/><path d="M16 12v8m-4-4h8" stroke="currentColor" stroke-width="1.5"/></svg></div>COREVERSE</div>
+  <div class="season"><div class="language-switch" aria-label="Language" data-i18n-aria-label="language_label"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="fr" aria-pressed="false">FR</button><button type="button" data-lang="ru" aria-pressed="false">RU</button><button type="button" data-lang="bg" aria-pressed="false">BG</button></div><span data-i18n="competitive_network">Competitive network</span><strong data-i18n="global_esports_season">Global esports · Season 09</strong></div>
+</header>
+<nav class="nav"><div class="navlinks"><a href="../index.html" data-i18n="home">HOME</a><a href="#rankings" class="active" data-i18n="rankings">RANKINGS</a><a href="#teams" data-i18n="teams">TEAMS</a><a href="#events" data-i18n="events">EVENTS</a><a href="#stats" data-i18n="statistics">STATISTICS</a></div><div class="live"><i></i><span data-i18n="season_live">SEASON LIVE</span> <span style="color:#6f91b7;margin-left:12px">2077</span></div></nav>
+<section class="stage" id="rankings">
+<aside class="side">
+  <div class="widget"><h3 data-i18n="season_activity">Season activity</h3><div class="metric">84.7K</div><div class="sub"><span data-i18n="matches_played">MATCHES PLAYED · +12.8%</span></div><div class="chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+  <div class="widget"><h3 data-i18n="top_division">Top division</h3><div class="hex"><span>✧</span></div><div class="sub" style="text-align:center"><span data-i18n="diamond_elite">DIAMOND ELITE</span></div></div>
+  <div class="widget"><h3 data-i18n="win_rate_index">Win rate index</h3><div class="metric">72<span style="font-size:12px;color:#71eaff">.4%</span></div><div class="sub"><span data-i18n="global_average">GLOBAL AVERAGE</span></div><div class="minirows" style="margin-top:12px"><div class="minirow"><b style="width:72%"></b></div><div class="minirow"><b style="width:48%"></b></div><div class="minirow"><b style="width:86%"></b></div></div></div>
+</aside>
+<section class="board">
+  <div class="boardhead"><div class="boardtitle"><div class="crest">C</div><div><h1 data-i18n="leaderboard">Leaderboard</h1><small><span data-i18n="global_esports_rankings">GLOBAL ESPORTS SEASON RANKINGS</span></small></div></div><div class="season-tag"><span data-i18n="season">SEASON</span> · 2077</div></div>
+  <div class="tablewrap"><table><thead><tr><th data-i18n="rank">Rank</th><th data-i18n="player_name">Player name</th><th data-i18n="score">Score</th><th data-i18n="wins">Wins</th><th data-i18n="level">Level</th><th data-i18n="trend">Trend</th></tr></thead><tbody id="rankingRows"><tr><td colspan="6" data-i18n="loading_rankings">Loading rankings…</td></tr></tbody></table></div>
+  <div class="boardfoot"><span><span data-i18n="live_ranking_demo">● LIVE RANKING DATA · DEMO DISPLAY</span></span><span><span data-i18n="updated">UPDATED</span> <span id="updatedAt">00:42 UTC</span></span></div>
+</section>
+<aside class="side right">
+  <div class="widget"><h3 data-i18n="performance">Performance</h3><div class="metric">+18.6%</div><div class="sub"><span data-i18n="season_growth">SEASON GROWTH</span></div><div class="chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+  <div class="widget"><h3 data-i18n="player_status">Player status</h3><div class="metric">4,208</div><div class="sub"><span data-i18n="players_online">PLAYERS ONLINE</span></div><div class="minirows" style="margin-top:14px"><div class="minirow"><b style="width:88%"></b></div><div class="minirow"><b style="width:61%"></b></div><div class="minirow"><b style="width:43%"></b></div></div></div>
+  <div class="widget"><h3 data-i18n="next_major">Next major</h3><div class="metric" style="font-size:19px">03:18:42</div><div class="sub"><span data-i18n="until_qualifiers">UNTIL QUALIFIERS</span></div><div style="margin-top:13px;color:#67eaff;font-size:10px;letter-spacing:.12em"><span data-i18n="coreverse_open">COREVERSE OPEN</span></div></div>
+</aside>
+</section>
+<section class="bottom" id="teams">
+  <div class="bottomcard"><div class="bottomicon">✦</div><div><strong>AXEL_BLADE</strong><small><span data-i18n="top_player">TOP PLAYER · 18.75M SCORE</span></small></div><em>#01</em></div>
+  <div class="bottomcard"><div class="bottomicon">◈</div><div><strong>LUNA_SKY</strong><small><span data-i18n="highest_win_count">HIGHEST WIN COUNT · 133 WINS</span></small></div><em>#02</em></div>
+  <div class="bottomcard"><div class="bottomicon">⌁</div><div><strong>NEON_RIOT</strong><small><span data-i18n="fastest_climb">FASTEST CLIMB · THIS WEEK</span></small></div><em>▲</em></div>
+</section>
+<footer class="footer" id="events"><span data-i18n="network_footer">COREVERSE ESPORTS NETWORK · SEASON 09 · ALL RANKINGS SHOWN ARE ILLUSTRATIVE DEMO DATA</span></footer>
+</main>
+
+<script>
+(() => {
+  const localeFiles = {
+    en: "../locales/esports_en.json",
+    fr: "../locales/esports_fr.json",
+    ru: "../locales/esports_ru.json",
+    bg: "../locales/esports_bg.json"
+  };
+  let messages = {};
+  let activeLanguage = null;
+  let languageRequestId = 0;
+  const loadedLocales = Object.create(null);
+  const localeRequests = Object.create(null);
+  const rows = document.getElementById("rankingRows");
+  const safe = value => String(value ?? "");
+  function applyLanguage(lang) {
+    document.documentElement.lang = lang;
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+      const key = el.dataset.i18n;
+      if (messages[key] !== undefined) el.textContent = messages[key];
+    });
+    document.querySelectorAll("[data-i18n-aria-label]").forEach(el => {
+      const key = el.dataset.i18nAriaLabel;
+      if (messages[key] !== undefined) el.setAttribute("aria-label", messages[key]);
+    });
+    document.querySelectorAll("[data-lang]").forEach(btn => {
+      btn.setAttribute("aria-pressed", String(btn.dataset.lang === lang));
+    });
+    document.title = messages.page_title || document.title;
+    window.esportsLanguage = lang;
+    if (rows && rows.dataset.error === "true") rows.querySelector("td").textContent = messages.rankings_error;
+  }
+  async function setLanguage(lang) {
+    const code = localeFiles[lang] ? lang : "en";
+    if (activeLanguage === code && loadedLocales[code]) return;
+
+    const requestId = ++languageRequestId;
+    try {
+      if (!loadedLocales[code]) {
+        if (!localeRequests[code]) {
+          localeRequests[code] = (async () => {
+            const response = await fetch(localeFiles[code], {cache:"no-store"});
+            if (!response.ok) throw new Error(`Locale ${code}: ${response.status}`);
+            return response.json();
+          })().then(data => {
+            loadedLocales[code] = data;
+            return data;
+          }).finally(() => {
+            delete localeRequests[code];
+          });
+        }
+        await localeRequests[code];
+      }
+
+      // If another language was selected while this request was pending,
+      // don't let this older response overwrite the newer selection.
+      if (requestId !== languageRequestId) return;
+      messages = loadedLocales[code];
+      activeLanguage = code;
+      applyLanguage(code);
+    } catch (error) {
+      console.error("Unable to load esports translations:", error);
+    }
+  }
+  document.querySelectorAll("[data-lang]").forEach(btn =>
+    btn.addEventListener("click", () => setLanguage(btn.dataset.lang))
+  );
+  window.addEventListener("message", event => {
+    if (event.origin !== location.origin || event.data?.type !== "royalreels:set-language") return;
+    setLanguage(event.data.language);
+  });
+  async function loadRankings() {
+    try {
+      const response = await fetch("./esports_rankings.json", {cache:"no-store"});
+      if (!response.ok) throw new Error(`Rankings: ${response.status}`);
+      const data = await response.json();
+      const fragment = document.createDocumentFragment();
+      data.rows.forEach((player, index) => {
+        const tr = document.createElement("tr");
+        if (index === 0) tr.className = "rank1";
+        const rank = document.createElement("td"); rank.textContent = `#${String(player.rank).padStart(2,"0")}`; tr.append(rank);
+        const nameCell = document.createElement("td");
+        const playerWrap = document.createElement("div"); playerWrap.className = "player";
+        const avatar = document.createElement("span"); avatar.className = `avatar ${player.avatar_style || ""}`.trim(); avatar.textContent = safe(player.initials);
+        const name = document.createElement("span"); name.append(document.createTextNode(safe(player.name)));
+        const handle = document.createElement("small"); handle.textContent = safe(player.handle); name.append(handle);
+        playerWrap.append(avatar,name); nameCell.append(playerWrap); tr.append(nameCell);
+        ["score","wins","level","trend"].forEach(key => { const td=document.createElement("td"); td.className=key; td.textContent=safe(player[key]); tr.append(td); });
+        fragment.append(tr);
+      });
+      rows.replaceChildren(fragment);
+      if (data.updated_at) document.getElementById("updatedAt").textContent = data.updated_at;
+    } catch (error) {
+      console.error("Unable to load esports rankings:", error);
+      rows.dataset.error = "true";
+      rows.innerHTML = '<tr><td colspan="6"></td></tr>';
+      rows.querySelector("td").textContent = messages.rankings_error || "Rankings could not be loaded.";
+    }
+  }
+  const initialLanguage = new URLSearchParams(location.search).get("rr_lang") || "en";
+  setLanguage(initialLanguage);
+  loadRankings();
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Wild West Gold",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Western",
+    "badge": "HOT",
+    "symbol": "🤠",
+    "colors": {
+      "--c1": "#6b3b1a",
+      "--c2": "#21130e",
+      "--glow": "#f6a24b66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "IPVCkL93",
+    "launch_url": "/g:IPVCkL93",
+    "thumbnail_url": "/thumbnails/IPVCkL93.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Moonlight Fortune",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "25 paylines · Mystery",
+    "badge": "NEW",
+    "symbol": "🌙",
+    "colors": {
+      "--c1": "#1f2d62",
+      "--c2": "#100f25",
+      "--glow": "#7a8bff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "6FPzJcGk",
+    "launch_url": "/g:6FPzJcGk",
+    "thumbnail_url": "/thumbnails/6FPzJcGk.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Thunder Gods",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Gods",
+    "badge": "JACKPOT",
+    "symbol": "⚡",
+    "colors": {
+      "--c1": "#4b3c79",
+      "--c2": "#160d28",
+      "--glow": "#c3a2ff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "ISxDQSI9",
+    "launch_url": "/g:ISxDQSI9",
+    "thumbnail_url": "/thumbnails/ISxDQSI9.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Phoenix Rising",
+    "stars": "★★★★★",
+    "tags": [
+      "popular",
+      "jackpot"
+    ],
+    "descr": "5 reels · Adventure",
+    "badge": "",
+    "symbol": "🔥",
+    "colors": {
+      "--c1": "#5b1f19",
+      "--c2": "#1e0d14",
+      "--glow": "#ff9a3c55"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "Px8oWHZd",
+    "launch_url": "/g:Px8oWHZd",
+    "thumbnail_url": "/thumbnails/Px8oWHZd.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Lucky Clover Gold",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Classic",
+    "badge": "",
+    "symbol": "🍀",
+    "colors": {
+      "--c1": "#674116",
+      "--c2": "#21120c",
+      "--glow": "#ffdd6a66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "CASV21ww",
+    "launch_url": "/g:CASV21ww",
+    "thumbnail_url": "/thumbnails/CASV21ww.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Cherry Boulevard",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Retro",
+    "badge": "",
+    "symbol": "🍒",
+    "colors": {
+      "--c1": "#70263b",
+      "--c2": "#200c18",
+      "--glow": "#ff6a8d66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "PvMqPLxp",
+    "launch_url": "/g:PvMqPLxp",
+    "thumbnail_url": "/thumbnails/PvMqPLxp.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Crown of Riches",
+    "stars": "★★★★★",
+    "tags": [
+      "new",
+      "jackpot"
+    ],
+    "descr": "Progressive · Royal",
+    "badge": "JACKPOT",
+    "symbol": "👑",
+    "colors": {
+      "--c1": "#154b3e",
+      "--c2": "#0c1d25",
+      "--glow": "#5df3bd55"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "YQcSkkpc",
+    "launch_url": "/g:YQcSkkpc",
+    "thumbnail_url": "/thumbnails/YQcSkkpc.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Neon Nights",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Neon",
+    "badge": "NEW",
+    "symbol": "🌃",
+    "colors": {
+      "--c1": "#183c68",
+      "--c2": "#160e30",
+      "--glow": "#56d5ff66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "plinpSnw",
+    "launch_url": "/g:plinpSnw",
+    "thumbnail_url": "/thumbnails/plinpSnw.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Imperial Jade",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Royal",
+    "badge": "JACKPOT",
+    "symbol": "🟢",
+    "colors": {
+      "--c1": "#155143",
+      "--c2": "#0b1c20",
+      "--glow": "#62e2b166"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "WSFs1Cvr",
+    "launch_url": "/g:WSFs1Cvr",
+    "thumbnail_url": "/thumbnails/WSFs1Cvr.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

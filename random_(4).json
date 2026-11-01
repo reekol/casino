@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Cherry Boulevard",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Retro",
+    "badge": "",
+    "symbol": "🍒",
+    "colors": {
+      "--c1": "#70263b",
+      "--c2": "#200c18",
+      "--glow": "#ff6a8d66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "PvMqPLxp",
+    "launch_url": "/g:PvMqPLxp",
+    "thumbnail_url": "/thumbnails/PvMqPLxp.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Arctic Aurora",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Ice",
+    "badge": "NEW",
+    "symbol": "❄️",
+    "colors": {
+      "--c1": "#1d5368",
+      "--c2": "#10172b",
+      "--glow": "#6ee8ff66"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "4pbzW3vt",
+    "launch_url": "/g:4pbzW3vt",
+    "thumbnail_url": "/thumbnails/4pbzW3vt.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Lucky Clover Gold",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Classic",
+    "badge": "",
+    "symbol": "🍀",
+    "colors": {
+      "--c1": "#674116",
+      "--c2": "#21120c",
+      "--glow": "#ffdd6a66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "CASV21ww",
+    "launch_url": "/g:CASV21ww",
+    "thumbnail_url": "/thumbnails/CASV21ww.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Temple of Titans",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Mythology",
+    "badge": "HOT",
+    "symbol": "🗿",
+    "colors": {
+      "--c1": "#4c3517",
+      "--c2": "#17101a",
+      "--glow": "#e4b34c66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "Ck8NFLXK",
+    "launch_url": "/g:Ck8NFLXK",
+    "thumbnail_url": "/thumbnails/Ck8NFLXK.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Imperial Jade",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Royal",
+    "badge": "JACKPOT",
+    "symbol": "🟢",
+    "colors": {
+      "--c1": "#155143",
+      "--c2": "#0b1c20",
+      "--glow": "#62e2b166"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "WSFs1Cvr",
+    "launch_url": "/g:WSFs1Cvr",
+    "thumbnail_url": "/thumbnails/WSFs1Cvr.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Honey Harvest",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Sweet",
+    "badge": "",
+    "symbol": "🍯",
+    "colors": {
+      "--c1": "#75501b",
+      "--c2": "#24140d",
+      "--glow": "#ffd66b66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "WpX1HIXj",
+    "launch_url": "/g:WpX1HIXj",
+    "thumbnail_url": "/thumbnails/WpX1HIXj.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mystic Spellbook",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "Bonus rounds · Magic",
+    "badge": "",
+    "symbol": "🪄",
+    "colors": {
+      "--c1": "#4b2c69",
+      "--c2": "#171026",
+      "--glow": "#da80ff55"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "xYfIHHna",
+    "launch_url": "/g:xYfIHHna",
+    "thumbnail_url": "/thumbnails/xYfIHHna.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Pearl of the Deep",
+    "stars": "★★★★★",
+    "tags": [
+      "new",
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "NEW",
+    "symbol": "🌊",
+    "colors": {
+      "--c1": "#16495a",
+      "--c2": "#10152c",
+      "--glow": "#5df3e555"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "TUcaPOYQ",
+    "launch_url": "/g:TUcaPOYQ",
+    "thumbnail_url": "/thumbnails/TUcaPOYQ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Neon Nights",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Neon",
+    "badge": "NEW",
+    "symbol": "🌃",
+    "colors": {
+      "--c1": "#183c68",
+      "--c2": "#160e30",
+      "--glow": "#56d5ff66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "plinpSnw",
+    "launch_url": "/g:plinpSnw",
+    "thumbnail_url": "/thumbnails/plinpSnw.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

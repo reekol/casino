@@ -1,0 +1,834 @@
+{
+  "0mbzjjQI": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "2cqNuBMV": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "4pbzW3vt": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "5j6lPPBN": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "6FPzJcGk": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "7xNjLrS8": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "CASV21ww": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "Cau95dOb": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "Ck8NFLXK": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "IPVCkL93": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "ISxDQSI9": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "KMalItOZ": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "LX8XMPKp": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "Nec0VBbZ": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "OYE9HvD4": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "ObN8y0iO": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "PvMqPLxp": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "Px8oWHZd": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "STq6Yp2I": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "TUcaPOYQ": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "TdFNOwAN": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "UcAq9eli": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "WHXVq1IF": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "WSFs1Cvr": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "WpX1HIXj": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "YQcSkkpc": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "YutueZC6": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "lPHmGQAW": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "pIhZj1O8": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "plinpSnw": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "sdVkrwWc": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  },
+  "xYfIHHna": {
+    "demo": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    },
+    "real": {
+      "handler": "handler_json",
+      "handler_param": ".url",
+      "launch_timer": 5,
+      "method": "POST",
+      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "headers": [
+        "Authorization: Bearer YOUR_API_TOKEN",
+        "Content-Type: application/json"
+      ],
+      "body": ""
+    }
+  }
+}

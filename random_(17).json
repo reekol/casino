@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Neon Nights",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Neon",
+    "badge": "NEW",
+    "symbol": "🌃",
+    "colors": {
+      "--c1": "#183c68",
+      "--c2": "#160e30",
+      "--glow": "#56d5ff66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "plinpSnw",
+    "launch_url": "/g:plinpSnw",
+    "thumbnail_url": "/thumbnails/plinpSnw.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Safari Spin",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "25 paylines · Wilds",
+    "badge": "",
+    "symbol": "🦁",
+    "colors": {
+      "--c1": "#6b491b",
+      "--c2": "#1d1710",
+      "--glow": "#f8bd4e66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "YutueZC6",
+    "launch_url": "/g:YutueZC6",
+    "thumbnail_url": "/thumbnails/YutueZC6.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Shadow Samurai",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "5 reels · Action",
+    "badge": "NEW",
+    "symbol": "🥷",
+    "colors": {
+      "--c1": "#30334c",
+      "--c2": "#0d101b",
+      "--glow": "#8b9cff66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "7xNjLrS8",
+    "launch_url": "/g:7xNjLrS8",
+    "thumbnail_url": "/thumbnails/7xNjLrS8.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Arctic Aurora",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Ice",
+    "badge": "NEW",
+    "symbol": "❄️",
+    "colors": {
+      "--c1": "#1d5368",
+      "--c2": "#10172b",
+      "--glow": "#6ee8ff66"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "4pbzW3vt",
+    "launch_url": "/g:4pbzW3vt",
+    "thumbnail_url": "/thumbnails/4pbzW3vt.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Electric 7s",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Classic",
+    "badge": "HOT",
+    "symbol": "🎰",
+    "colors": {
+      "--c1": "#5b2020",
+      "--c2": "#1c0d17",
+      "--glow": "#ff565666"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "sdVkrwWc",
+    "launch_url": "/g:sdVkrwWc",
+    "thumbnail_url": "/thumbnails/sdVkrwWc.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Big Top Bonanza",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "25 paylines · Circus",
+    "badge": "HOT",
+    "symbol": "🎪",
+    "colors": {
+      "--c1": "#792a38",
+      "--c2": "#211024",
+      "--glow": "#ffb04d66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "Cau95dOb",
+    "launch_url": "/g:Cau95dOb",
+    "thumbnail_url": "/thumbnails/Cau95dOb.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Honey Harvest",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Sweet",
+    "badge": "",
+    "symbol": "🍯",
+    "colors": {
+      "--c1": "#75501b",
+      "--c2": "#24140d",
+      "--glow": "#ffd66b66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "WpX1HIXj",
+    "launch_url": "/g:WpX1HIXj",
+    "thumbnail_url": "/thumbnails/WpX1HIXj.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Wild West Gold",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Western",
+    "badge": "HOT",
+    "symbol": "🤠",
+    "colors": {
+      "--c1": "#6b3b1a",
+      "--c2": "#21130e",
+      "--glow": "#f6a24b66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "IPVCkL93",
+    "launch_url": "/g:IPVCkL93",
+    "thumbnail_url": "/thumbnails/IPVCkL93.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Cosmic Carnival",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Cosmic",
+    "badge": "NEW",
+    "symbol": "🎡",
+    "colors": {
+      "--c1": "#49316e",
+      "--c2": "#15102a",
+      "--glow": "#f28dff66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "TdFNOwAN",
+    "launch_url": "/g:TdFNOwAN",
+    "thumbnail_url": "/thumbnails/TdFNOwAN.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

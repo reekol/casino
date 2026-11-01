@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Moonlight Fortune",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "25 paylines · Mystery",
+    "badge": "NEW",
+    "symbol": "🌙",
+    "colors": {
+      "--c1": "#1f2d62",
+      "--c2": "#100f25",
+      "--glow": "#7a8bff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "6FPzJcGk",
+    "launch_url": "/g:6FPzJcGk",
+    "thumbnail_url": "/thumbnails/6FPzJcGk.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Arctic Aurora",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Ice",
+    "badge": "NEW",
+    "symbol": "❄️",
+    "colors": {
+      "--c1": "#1d5368",
+      "--c2": "#10172b",
+      "--glow": "#6ee8ff66"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "4pbzW3vt",
+    "launch_url": "/g:4pbzW3vt",
+    "thumbnail_url": "/thumbnails/4pbzW3vt.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Dragon's Treasure",
+    "stars": "★★★★★",
+    "tags": [
+      "popular",
+      "jackpot"
+    ],
+    "descr": "5 reels · Fantasy",
+    "badge": "HOT",
+    "symbol": "🐉",
+    "colors": {
+      "--c1": "#4d1c5e",
+      "--c2": "#130d29",
+      "--glow": "#f8a52e66"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "UcAq9eli",
+    "launch_url": "/g:UcAq9eli",
+    "thumbnail_url": "/thumbnails/UcAq9eli.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mermaid's Wish",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "",
+    "symbol": "🧜",
+    "colors": {
+      "--c1": "#164e65",
+      "--c2": "#10182b",
+      "--glow": "#5be5e366"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "WHXVq1IF",
+    "launch_url": "/g:WHXVq1IF",
+    "thumbnail_url": "/thumbnails/WHXVq1IF.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Safari Spin",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "25 paylines · Wilds",
+    "badge": "",
+    "symbol": "🦁",
+    "colors": {
+      "--c1": "#6b491b",
+      "--c2": "#1d1710",
+      "--glow": "#f8bd4e66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "YutueZC6",
+    "launch_url": "/g:YutueZC6",
+    "thumbnail_url": "/thumbnails/YutueZC6.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Temple of Titans",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Mythology",
+    "badge": "HOT",
+    "symbol": "🗿",
+    "colors": {
+      "--c1": "#4c3517",
+      "--c2": "#17101a",
+      "--glow": "#e4b34c66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "Ck8NFLXK",
+    "launch_url": "/g:Ck8NFLXK",
+    "thumbnail_url": "/thumbnails/Ck8NFLXK.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Imperial Jade",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Royal",
+    "badge": "JACKPOT",
+    "symbol": "🟢",
+    "colors": {
+      "--c1": "#155143",
+      "--c2": "#0b1c20",
+      "--glow": "#62e2b166"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "WSFs1Cvr",
+    "launch_url": "/g:WSFs1Cvr",
+    "thumbnail_url": "/thumbnails/WSFs1Cvr.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Cosmic Carnival",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Cosmic",
+    "badge": "NEW",
+    "symbol": "🎡",
+    "colors": {
+      "--c1": "#49316e",
+      "--c2": "#15102a",
+      "--glow": "#f28dff66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "TdFNOwAN",
+    "launch_url": "/g:TdFNOwAN",
+    "thumbnail_url": "/thumbnails/TdFNOwAN.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mystic Spellbook",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "Bonus rounds · Magic",
+    "badge": "",
+    "symbol": "🪄",
+    "colors": {
+      "--c1": "#4b2c69",
+      "--c2": "#171026",
+      "--glow": "#da80ff55"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "xYfIHHna",
+    "launch_url": "/g:xYfIHHna",
+    "thumbnail_url": "/thumbnails/xYfIHHna.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

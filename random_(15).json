@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Neon Nights",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "20 paylines · Neon",
+    "badge": "NEW",
+    "symbol": "🌃",
+    "colors": {
+      "--c1": "#183c68",
+      "--c2": "#160e30",
+      "--glow": "#56d5ff66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "plinpSnw",
+    "launch_url": "/g:plinpSnw",
+    "thumbnail_url": "/thumbnails/plinpSnw.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Pearl of the Deep",
+    "stars": "★★★★★",
+    "tags": [
+      "new",
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "NEW",
+    "symbol": "🌊",
+    "colors": {
+      "--c1": "#16495a",
+      "--c2": "#10152c",
+      "--glow": "#5df3e555"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "TUcaPOYQ",
+    "launch_url": "/g:TUcaPOYQ",
+    "thumbnail_url": "/thumbnails/TUcaPOYQ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Moonlight Fortune",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "25 paylines · Mystery",
+    "badge": "NEW",
+    "symbol": "🌙",
+    "colors": {
+      "--c1": "#1f2d62",
+      "--c2": "#100f25",
+      "--glow": "#7a8bff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "6FPzJcGk",
+    "launch_url": "/g:6FPzJcGk",
+    "thumbnail_url": "/thumbnails/6FPzJcGk.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Enchanted Orchard",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Fantasy",
+    "badge": "",
+    "symbol": "🍎",
+    "colors": {
+      "--c1": "#315b2a",
+      "--c2": "#111d17",
+      "--glow": "#a6e56b66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "0mbzjjQI",
+    "launch_url": "/g:0mbzjjQI",
+    "thumbnail_url": "/thumbnails/0mbzjjQI.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Safari Spin",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "25 paylines · Wilds",
+    "badge": "",
+    "symbol": "🦁",
+    "colors": {
+      "--c1": "#6b491b",
+      "--c2": "#1d1710",
+      "--glow": "#f8bd4e66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "YutueZC6",
+    "launch_url": "/g:YutueZC6",
+    "thumbnail_url": "/thumbnails/YutueZC6.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Thunder Gods",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Gods",
+    "badge": "JACKPOT",
+    "symbol": "⚡",
+    "colors": {
+      "--c1": "#4b3c79",
+      "--c2": "#160d28",
+      "--glow": "#c3a2ff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "ISxDQSI9",
+    "launch_url": "/g:ISxDQSI9",
+    "thumbnail_url": "/thumbnails/ISxDQSI9.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Ocean Odyssey",
+    "stars": "★★★★☆",
+    "tags": [
+      "new"
+    ],
+    "descr": "Ways to win · Ocean",
+    "badge": "NEW",
+    "symbol": "🐬",
+    "colors": {
+      "--c1": "#155879",
+      "--c2": "#0b1528",
+      "--glow": "#57c9ff66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "STq6Yp2I",
+    "launch_url": "/g:STq6Yp2I",
+    "thumbnail_url": "/thumbnails/STq6Yp2I.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Cosmic Carnival",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Cosmic",
+    "badge": "NEW",
+    "symbol": "🎡",
+    "colors": {
+      "--c1": "#49316e",
+      "--c2": "#15102a",
+      "--glow": "#f28dff66"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "TdFNOwAN",
+    "launch_url": "/g:TdFNOwAN",
+    "thumbnail_url": "/thumbnails/TdFNOwAN.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Honey Harvest",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Sweet",
+    "badge": "",
+    "symbol": "🍯",
+    "colors": {
+      "--c1": "#75501b",
+      "--c2": "#24140d",
+      "--glow": "#ffd66b66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "WpX1HIXj",
+    "launch_url": "/g:WpX1HIXj",
+    "thumbnail_url": "/thumbnails/WpX1HIXj.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

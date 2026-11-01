@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Jungle Jewel",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Jungle",
+    "badge": "",
+    "symbol": "🦜",
+    "colors": {
+      "--c1": "#15513f",
+      "--c2": "#0b1e1c",
+      "--glow": "#55e3a466"
+    },
+    "markerColorName": "Turquoise",
+    "markerColor": "#42e5d0",
+    "id": "Nec0VBbZ",
+    "launch_url": "/g:Nec0VBbZ",
+    "thumbnail_url": "/thumbnails/Nec0VBbZ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Enchanted Orchard",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "5 reels · Fantasy",
+    "badge": "",
+    "symbol": "🍎",
+    "colors": {
+      "--c1": "#315b2a",
+      "--c2": "#111d17",
+      "--glow": "#a6e56b66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "0mbzjjQI",
+    "launch_url": "/g:0mbzjjQI",
+    "thumbnail_url": "/thumbnails/0mbzjjQI.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Electric 7s",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Classic",
+    "badge": "HOT",
+    "symbol": "🎰",
+    "colors": {
+      "--c1": "#5b2020",
+      "--c2": "#1c0d17",
+      "--glow": "#ff565666"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "sdVkrwWc",
+    "launch_url": "/g:sdVkrwWc",
+    "thumbnail_url": "/thumbnails/sdVkrwWc.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Ruby Royale",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Gems",
+    "badge": "JACKPOT",
+    "symbol": "❤️",
+    "colors": {
+      "--c1": "#671e39",
+      "--c2": "#1b0c20",
+      "--glow": "#ff557e66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "pIhZj1O8",
+    "launch_url": "/g:pIhZj1O8",
+    "thumbnail_url": "/thumbnails/pIhZj1O8.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Ocean Odyssey",
+    "stars": "★★★★☆",
+    "tags": [
+      "new"
+    ],
+    "descr": "Ways to win · Ocean",
+    "badge": "NEW",
+    "symbol": "🐬",
+    "colors": {
+      "--c1": "#155879",
+      "--c2": "#0b1528",
+      "--glow": "#57c9ff66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "STq6Yp2I",
+    "launch_url": "/g:STq6Yp2I",
+    "thumbnail_url": "/thumbnails/STq6Yp2I.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Starfall Riches",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Cosmic",
+    "badge": "NEW",
+    "symbol": "🌠",
+    "colors": {
+      "--c1": "#25256d",
+      "--c2": "#110d2a",
+      "--glow": "#8a83ff66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "OYE9HvD4",
+    "launch_url": "/g:OYE9HvD4",
+    "thumbnail_url": "/thumbnails/OYE9HvD4.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mermaid's Wish",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "",
+    "symbol": "🧜",
+    "colors": {
+      "--c1": "#164e65",
+      "--c2": "#10182b",
+      "--glow": "#5be5e366"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "WHXVq1IF",
+    "launch_url": "/g:WHXVq1IF",
+    "thumbnail_url": "/thumbnails/WHXVq1IF.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Candy Comet",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "Sweet wins · Candy",
+    "badge": "",
+    "symbol": "🍭",
+    "colors": {
+      "--c1": "#6e2863",
+      "--c2": "#251033",
+      "--glow": "#ff75cf66"
+    },
+    "markerColorName": "Amber",
+    "markerColor": "#ffc45e",
+    "id": "2cqNuBMV",
+    "launch_url": "/g:2cqNuBMV",
+    "thumbnail_url": "/thumbnails/2cqNuBMV.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Imperial Jade",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Royal",
+    "badge": "JACKPOT",
+    "symbol": "🟢",
+    "colors": {
+      "--c1": "#155143",
+      "--c2": "#0b1c20",
+      "--glow": "#62e2b166"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "WSFs1Cvr",
+    "launch_url": "/g:WSFs1Cvr",
+    "thumbnail_url": "/thumbnails/WSFs1Cvr.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]

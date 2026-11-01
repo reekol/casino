@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Moonlight Fortune",
+    "stars": "★★★★★",
+    "tags": [
+      "new"
+    ],
+    "descr": "25 paylines · Mystery",
+    "badge": "NEW",
+    "symbol": "🌙",
+    "colors": {
+      "--c1": "#1f2d62",
+      "--c2": "#100f25",
+      "--glow": "#7a8bff66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "6FPzJcGk",
+    "launch_url": "/g:6FPzJcGk",
+    "thumbnail_url": "/thumbnails/6FPzJcGk.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Imperial Jade",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Royal",
+    "badge": "JACKPOT",
+    "symbol": "🟢",
+    "colors": {
+      "--c1": "#155143",
+      "--c2": "#0b1c20",
+      "--glow": "#62e2b166"
+    },
+    "markerColorName": "Emerald",
+    "markerColor": "#42d99a",
+    "id": "WSFs1Cvr",
+    "launch_url": "/g:WSFs1Cvr",
+    "thumbnail_url": "/thumbnails/WSFs1Cvr.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Velvet Vampire",
+    "stars": "★★★★☆",
+    "tags": [
+      "new"
+    ],
+    "descr": "Bonus rounds · Gothic",
+    "badge": "NEW",
+    "symbol": "🧛",
+    "colors": {
+      "--c1": "#50214f",
+      "--c2": "#160d22",
+      "--glow": "#df78ff66"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "5j6lPPBN",
+    "launch_url": "/g:5j6lPPBN",
+    "thumbnail_url": "/thumbnails/5j6lPPBN.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Ruby Royale",
+    "stars": "★★★★★",
+    "tags": [
+      "jackpot"
+    ],
+    "descr": "Progressive · Gems",
+    "badge": "JACKPOT",
+    "symbol": "❤️",
+    "colors": {
+      "--c1": "#671e39",
+      "--c2": "#1b0c20",
+      "--glow": "#ff557e66"
+    },
+    "markerColorName": "Amethyst",
+    "markerColor": "#b68aff",
+    "id": "pIhZj1O8",
+    "launch_url": "/g:pIhZj1O8",
+    "thumbnail_url": "/thumbnails/pIhZj1O8.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Electric 7s",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Classic",
+    "badge": "HOT",
+    "symbol": "🎰",
+    "colors": {
+      "--c1": "#5b2020",
+      "--c2": "#1c0d17",
+      "--glow": "#ff565666"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "sdVkrwWc",
+    "launch_url": "/g:sdVkrwWc",
+    "thumbnail_url": "/thumbnails/sdVkrwWc.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Lucky Clover Gold",
+    "stars": "★★★★☆",
+    "tags": [
+      "popular"
+    ],
+    "descr": "3 reels · Classic",
+    "badge": "",
+    "symbol": "🍀",
+    "colors": {
+      "--c1": "#674116",
+      "--c2": "#21120c",
+      "--glow": "#ffdd6a66"
+    },
+    "markerColorName": "Ruby",
+    "markerColor": "#ff5277",
+    "id": "CASV21ww",
+    "launch_url": "/g:CASV21ww",
+    "thumbnail_url": "/thumbnails/CASV21ww.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Mermaid's Wish",
+    "stars": "★★★★★",
+    "tags": [
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "",
+    "symbol": "🧜",
+    "colors": {
+      "--c1": "#164e65",
+      "--c2": "#10182b",
+      "--glow": "#5be5e366"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "WHXVq1IF",
+    "launch_url": "/g:WHXVq1IF",
+    "thumbnail_url": "/thumbnails/WHXVq1IF.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Pearl of the Deep",
+    "stars": "★★★★★",
+    "tags": [
+      "new",
+      "popular"
+    ],
+    "descr": "20 paylines · Ocean",
+    "badge": "NEW",
+    "symbol": "🌊",
+    "colors": {
+      "--c1": "#16495a",
+      "--c2": "#10152c",
+      "--glow": "#5df3e555"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "TUcaPOYQ",
+    "launch_url": "/g:TUcaPOYQ",
+    "thumbnail_url": "/thumbnails/TUcaPOYQ.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  },
+  {
+    "name": "Dragon's Treasure",
+    "stars": "★★★★★",
+    "tags": [
+      "popular",
+      "jackpot"
+    ],
+    "descr": "5 reels · Fantasy",
+    "badge": "HOT",
+    "symbol": "🐉",
+    "colors": {
+      "--c1": "#4d1c5e",
+      "--c2": "#130d29",
+      "--glow": "#f8a52e66"
+    },
+    "markerColorName": "Sapphire",
+    "markerColor": "#35b7ff",
+    "id": "UcAq9eli",
+    "launch_url": "/g:UcAq9eli",
+    "thumbnail_url": "/thumbnails/UcAq9eli.webp",
+    "default_thumbnail_url": "/thumbnails/default.svg"
+  }
+]
