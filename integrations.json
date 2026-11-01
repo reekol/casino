@@ -681,7 +681,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/TransparentFuture_1x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -693,7 +693,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/TransparentFuture_1x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -733,7 +733,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/ProbabilityCluster_3x4/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -745,7 +745,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/ProbabilityCluster_3x4/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -759,7 +759,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/Jackpot_3x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
@@ -771,7 +771,7 @@
       "handler_param": ".url",
       "launch_timer": 5,
       "method": "POST",
-      "endpoint": "https://games.dev.seqr.link/fe/SpaceEntropy_3x3/demoPlayApi",
+      "endpoint": "https://games.dev.seqr.link/fe/Jackpot_3x3/demoPlayApi",
       "headers": [
         "Authorization: Bearer YOUR_API_TOKEN",
         "Content-Type: application/json"
