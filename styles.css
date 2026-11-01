@@ -5343,6 +5343,27 @@ body[data-theme] #gameWorkspace .game-modal .modal-game-actions .compare-pin.sel
   #gameWorkspace .workspace-sidebar-toggle-page { margin-left: auto; color: #a8a0b5; font-weight: 700; }
   #gameWorkspace .workspace-sidebar-toggle-icon { font-size: 18px; transition: transform .18s ease; }
   #gameWorkspace .workspace-sidebar-content { display: none; }
-  #gameWorkspace .workspace-sidebar.is-expanded .workspace-sidebar-content { display: flex; flex-direction: column; margin-top: 10px; padding: 14px; border: 1px solid #ffffff18; border-radius: 12px; background: #171321f2; }
+  #gameWorkspace .workspace-sidebar.is-expanded .workspace-sidebar-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 14px;
+    border: 1px solid #ffffff18;
+    border-radius: 12px;
+    background: #171321f2;
+    max-height: none;
+    overflow: visible;
+  }
+
+  #gameWorkspace .workspace-sidebar.is-expanded .workspace-game-list {
+    max-height: none;
+    overflow: visible;
+  }
+
+  #gameWorkspace .workspace-sidebar.is-expanded {
+    width: 100%;
+    max-height: none;
+  }
+
   #gameWorkspace .workspace-sidebar.is-expanded .workspace-sidebar-toggle-icon { transform: rotate(180deg); }
 }
