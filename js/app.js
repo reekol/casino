@@ -1666,4 +1666,34 @@
     setInterval(() => { jackpot += Math.floor(Math.random() * 8) + 1; document.getElementById('jackpotValue').textContent = 'GC ' + jackpot.toLocaleString('en-US'); }, 2400);
     initWorkspaceSidebarToggle();
     renderHomepageCustomLinks();
+
+    // Mobile navigation reuses the existing lobby controls so filtering and
+    // comparison state remain owned by the established application logic.
+    const mobileNav = document.querySelector('.mobile-bottom-nav');
+    if (mobileNav) {
+        mobileNav.addEventListener('click', event => {
+            const link = event.target.closest('[data-mobile-nav]');
+            if (!link) return;
+            const destination = link.dataset.mobileNav;
+            mobileNav.querySelectorAll('.mobile-nav-item').forEach(item => {
+                item.classList.toggle('active', item === link);
+            });
+            if (destination === 'favorites') {
+                event.preventDefault();
+                document.getElementById('favorites')?.click();
+                document.getElementById('games')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (destination === 'compare') {
+                event.preventDefault();
+                const panel = document.getElementById('gameComparison');
+                const restore = document.getElementById('showComparison');
+                if (restore && !restore.hidden) restore.click();
+                if (panel && !panel.hidden) {
+                    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else {
+                    toast('Pin games from the lobby to compare them here.');
+                    document.getElementById('games')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        });
+    }
 })();
