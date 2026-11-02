@@ -951,6 +951,7 @@
                 fullscreenButton.setAttribute('aria-label', 'Exit fullscreen');
                 fullscreenButton.title = 'Exit fullscreen';
             } else {
+                restoreOtherWindowStates(win);
                 win.classList.remove('modal-fullscreen');
                 win.style.removeProperty('--fullscreen-top');
                 const previous = win._preFullscreen || {};
@@ -1358,6 +1359,7 @@
                 fullscreenButton.title = 'Exit fullscreen';
             }
             else {
+                restoreOtherWindowStates(win);
                 win.classList.remove('modal-fullscreen');
                 win.style.removeProperty('--fullscreen-top');
                 const prev = win._preFullscreen || {};
@@ -1455,10 +1457,21 @@
             requestAnimationFrame(autoArrangeWindows);
     }
     function collapseOtherWindows(activeWindow) {
+        activeWindow._otherWindowStates = [];
+
         openWindows.forEach(win => {
             if (win === activeWindow) return;
+
+            const state = {
+                window: win,
+                collapsed: win.classList.contains('modal-collapsed'),
+                fullscreen: win.classList.contains('modal-fullscreen')
+            };
+            activeWindow._otherWindowStates.push(state);
+
             win.classList.remove('modal-fullscreen');
             win.classList.add('modal-collapsed');
+
             const collapse = win.querySelector('.window-collapse');
             if (collapse) {
                 collapse.textContent = '+';
@@ -1466,12 +1479,40 @@
                 collapse.setAttribute('aria-label', 'Expand window');
                 collapse.title = 'Expand window';
             }
+
             const fullscreen = win.querySelector('.window-fullscreen');
             if (fullscreen) {
                 fullscreen.setAttribute('aria-label', 'Enter fullscreen');
                 fullscreen.title = 'Enter fullscreen';
             }
         });
+    }
+
+    function restoreOtherWindowStates(activeWindow) {
+        const states = activeWindow._otherWindowStates || [];
+
+        states.forEach(({ window: win, collapsed, fullscreen }) => {
+            if (!win || !win.isConnected) return;
+
+            win.classList.toggle('modal-collapsed', collapsed);
+            win.classList.toggle('modal-fullscreen', fullscreen);
+
+            const collapse = win.querySelector('.window-collapse');
+            if (collapse) {
+                collapse.textContent = collapsed ? '+' : '−';
+                collapse.setAttribute('aria-expanded', String(!collapsed));
+                collapse.setAttribute('aria-label', collapsed ? 'Expand window' : 'Collapse window');
+                collapse.title = collapsed ? 'Expand window' : 'Collapse window';
+            }
+
+            const fullscreenButton = win.querySelector('.window-fullscreen');
+            if (fullscreenButton) {
+                fullscreenButton.setAttribute('aria-label', fullscreen ? 'Exit fullscreen' : 'Enter fullscreen');
+                fullscreenButton.title = fullscreen ? 'Exit fullscreen' : 'Enter fullscreen';
+            }
+        });
+
+        activeWindow._otherWindowStates = [];
     }
 
     function expandWindowIfCollapsed(win) {
