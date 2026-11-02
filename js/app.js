@@ -1257,7 +1257,7 @@
             win.style.top = Math.max(12, Math.min(innerHeight - 420, 80 + offset * 28)) + 'px';
         }
         const c1 = getComputedStyle(art).getPropertyValue('--c1'), c2 = getComputedStyle(art).getPropertyValue('--c2'), glow = getComputedStyle(art).getPropertyValue('--glow');
-        win.innerHTML = `<div class="window-bar"><span>♛ ROYAL REELS <span class="window-count">· GAME ${windowCounter}</span></span><div class="window-controls"><button class="window-fullscreen" type="button" aria-label="Enter fullscreen" title="Enter fullscreen">⛶</button><button class="window-close" aria-label="Close game" title="Close game">×</button></div></div><div class="game-launch-frame" aria-label="Launched game"></div><div class="modal-hero"><img class="modal-thumbnail" alt=""><div class="modal-game-actions"><button class="compare-pin modal-compare-toggle" type="button" aria-label="Add to comparison" title="Add to comparison" aria-pressed="false">📌</button><button class="heart modal-favorite-toggle" type="button" aria-label="Add to favorites" title="Add to favorites" aria-pressed="false">♡</button></div></div><div class="modal-copy"><h2></h2><div class="modal-details"><span class="modal-chip genre"></span><span class="modal-chip">Demo mode</span><span class="modal-chip">No real-money play</span></div><div class="modal-actions"><div class="integration-state-actions"></div></div><div class="demo-stage"><strong>Demo spin</strong><div class="demo-reels"><div class="demo-reel">🍒</div><div class="demo-reel">7️⃣</div><div class="demo-reel">💎</div></div><div class="demo-note">Illustrative animation only — no wagers, payouts, or real credits.</div><button class="btn btn-gold spin-demo" style="margin-top:13px">Spin demo</button></div></div>`;
+        win.innerHTML = `<div class="window-bar"><span>♛ ROYAL REELS <span class="window-count">· GAME ${windowCounter}</span></span><div class="window-controls"><button class="window-fullscreen" type="button" aria-label="Enter fullscreen" title="Enter fullscreen">⛶</button><button class="window-collapse" type="button" aria-label="Collapse window" title="Collapse window" aria-expanded="true">−</button><button class="window-close" aria-label="Close game" title="Close game">×</button></div></div><div class="game-launch-frame" aria-label="Launched game"></div><div class="modal-hero"><img class="modal-thumbnail" alt=""><div class="modal-game-actions"><button class="compare-pin modal-compare-toggle" type="button" aria-label="Add to comparison" title="Add to comparison" aria-pressed="false">📌</button><button class="heart modal-favorite-toggle" type="button" aria-label="Add to favorites" title="Add to favorites" aria-pressed="false">♡</button></div></div><div class="modal-copy"><h2></h2><div class="modal-details"><span class="modal-chip genre"></span><span class="modal-chip">Demo mode</span><span class="modal-chip">No real-money play</span></div><div class="modal-actions"><div class="integration-state-actions"></div></div><div class="demo-stage"><strong>Demo spin</strong><div class="demo-reels"><div class="demo-reel">🍒</div><div class="demo-reel">7️⃣</div><div class="demo-reel">💎</div></div><div class="demo-note">Illustrative animation only — no wagers, payouts, or real credits.</div><button class="btn btn-gold spin-demo" style="margin-top:13px">Spin demo</button></div></div>`;
         win.querySelector('.modal-hero').style.setProperty('--c1', c1);
         win.querySelector('.modal-hero').style.setProperty('--c2', c2);
         win.querySelector('.modal-hero').style.setProperty('--glow', glow);
@@ -1328,6 +1328,16 @@
                 updateCompare();
             showModalCompareCount(win);
         });
+        const collapseButton = win.querySelector('.window-collapse');
+        if (collapseButton) {
+            collapseButton.addEventListener('click', () => {
+                const collapsed = win.classList.toggle('modal-collapsed');
+                collapseButton.textContent = collapsed ? '+' : '−';
+                collapseButton.setAttribute('aria-expanded', String(!collapsed));
+                collapseButton.setAttribute('aria-label', collapsed ? 'Expand window' : 'Collapse window');
+                collapseButton.title = collapsed ? 'Expand window' : 'Collapse window';
+            });
+        }
         const collapseButton = win.querySelector('.window-collapse');
         if (collapseButton) {
             collapseButton.addEventListener('click', () => {
