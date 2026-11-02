@@ -5923,3 +5923,192 @@ body[data-theme="default"] {
     pointer-events: auto;
   }
 }
+
+
+/* Adaptive mobile lobby: curated shelves, compact catalog cards and persistent navigation. */
+.mobile-discovery,
+.mobile-bottom-nav { display: none; }
+
+@media (max-width: 700px) {
+  html { scroll-padding-top: 72px; }
+  body {
+    padding-bottom: calc(70px + env(safe-area-inset-bottom));
+    overscroll-behavior-x: none;
+  }
+  header {
+    height: 62px;
+    padding-inline: 12px;
+    gap: 8px;
+  }
+  .brand { gap: 7px; font-size: 13px; letter-spacing: 1.2px; white-space: nowrap; }
+  .brand-mark { width: 31px; height: 31px; border-radius: 10px; font-size: 19px; }
+  .actions { gap: 5px; min-width: 0; }
+  .actions .btn { padding: 9px 10px; font-size: 10px; white-space: nowrap; }
+  main { padding: 13px 12px 24px; }
+  .hero { grid-template-columns: minmax(0,1fr); border-radius: 19px; }
+  .hero-copy { padding: 23px 19px 0; }
+  .hero h1 { font-size: clamp(30px,8vw,42px); line-height: 1.02; margin: 12px 0 10px; letter-spacing: -1.4px; }
+  .hero p { font-size: 12px; line-height: 1.5; margin: 0; }
+  .hero-cta { gap: 8px; margin-top: 15px; }
+  .hero-cta .btn { min-height: 40px; padding: 10px 12px; font-size: 11px; }
+  .hero-art { min-height: 178px; }
+  .halo { width: min(52vw,210px); }
+  .slot-machine { width: min(64%,220px); padding: 10px; }
+  .reel { height: 61px; font-size: 29px; }
+  .coin { width: 48px; height: 48px; font-size: 22px; border-width: 3px; }
+  .stats { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 7px; margin: 13px 0 22px; }
+  .stat { min-width: 0; padding: 9px 8px; gap: 6px; border-radius: 12px; }
+  .stat-icon { width: 27px; height: 27px; font-size: 14px; border-radius: 9px; }
+  .stat small { font-size: 8px; line-height: 1.25; }
+  .stat strong { display: block; font-size: 10px; line-height: 1.25; overflow-wrap: anywhere; }
+  .mobile-discovery { display: grid; gap: 17px; margin: 20px 0 25px; }
+  .mobile-discovery-shelf[hidden] { display: none !important; }
+  .mobile-discovery-heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: 9px; }
+  .mobile-discovery-heading h2 { margin: 0; color: var(--theme-text,#fff); font-size: 16px; letter-spacing: -.25px; }
+  .mobile-discovery-track {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(126px, 39%);
+    gap: 10px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding: 2px 2px 8px;
+    margin: 0 -2px;
+  }
+  .mobile-discovery-track::-webkit-scrollbar { display: none; }
+  .mobile-discovery-card {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    gap: 7px;
+    padding: 7px;
+    border: 1px solid var(--theme-line,#ffffff18);
+    border-radius: 13px;
+    background: var(--theme-panel,#14131e);
+    color: var(--theme-text,#fff);
+    text-align: left;
+    cursor: pointer;
+    scroll-snap-align: start;
+  }
+  .mobile-discovery-card img { display: block; width: 100%; aspect-ratio: 1.25; object-fit: contain; border-radius: 8px; background: #090811; }
+  .mobile-discovery-card span { overflow: hidden; font-size: 11px; font-weight: 850; text-overflow: ellipsis; white-space: nowrap; }
+  .mobile-discovery-card small { overflow: hidden; color: var(--theme-muted,#aaa3b8); font-size: 9px; text-overflow: ellipsis; white-space: nowrap; }
+  .section-head { align-items: center; margin: 22px 0 13px; }
+  .section-head h2 { font-size: 19px; }
+  .section-head p { max-width: 230px; font-size: 10px; line-height: 1.4; }
+  #filters { display: flex; flex-wrap: nowrap; gap: 7px; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; padding: 0 1px 8px; margin: 0 -1px 12px; }
+  #filters::-webkit-scrollbar { display: none; }
+  #filters .filter { flex: 0 0 auto; min-height: 38px; padding: 9px 13px; }
+  .games { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+  .game { border-radius: 13px; }
+  .game-art { height: auto; aspect-ratio: 1.18; }
+  .game-info { padding: 10px; }
+  .game-title { font-size: 11px; }
+  .game-meta { gap: 5px; font-size: 9px; }
+  .game-meta span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .game-meta strong { font-size: 10px; }
+  .play { min-height: 39px; margin-top: 9px; padding: 8px 5px; font-size: 10px; }
+  .pagination { gap: 6px; margin: 17px 0 4px; }
+  .page-btn { min-width: 36px; height: 36px; }
+  .mobile-bottom-nav {
+    position: fixed;
+    z-index: 80;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    gap: 2px;
+    min-height: calc(62px + env(safe-area-inset-bottom));
+    padding: 6px 8px calc(6px + env(safe-area-inset-bottom));
+    border-top: 1px solid #f7d27a35;
+    background: #0b0915ed;
+    backdrop-filter: blur(18px);
+    box-shadow: 0 -12px 32px #0005;
+  }
+  .mobile-bottom-nav button {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    border: 0;
+    border-radius: 11px;
+    background: transparent;
+    color: #a9a2b6;
+    font: inherit;
+    font-size: 9px;
+    font-weight: 800;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .mobile-bottom-nav button > span:first-child { font-size: 19px; line-height: 1; }
+  .mobile-bottom-nav button.is-active { color: var(--gold); background: #f7d27a12; }
+  .mobile-bottom-nav button:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
+  .section-head, #filters, #jackpot { scroll-margin-top: 76px; }
+
+  /* Workspace becomes a full-height mobile stack; launched games retain a real iframe viewport. */
+  #gameWorkspace {
+    height: 100dvh;
+    min-height: 100dvh;
+    padding: max(8px,env(safe-area-inset-top)) 8px max(8px,env(safe-area-inset-bottom));
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  #gameWorkspace.open { display: flex; flex-direction: column; align-items: stretch; }
+  #workspaceToolbar {
+    position: sticky;
+    top: 0;
+    right: auto;
+    align-self: stretch;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 7px;
+    margin: 0 0 9px;
+    padding: 7px 9px;
+    border-radius: 12px;
+  }
+  #gameWorkspace .workspace-sidebar { width: 100%; flex: 0 0 auto; margin-bottom: 9px; }
+  #gameWorkspace .game-modal,
+  #gameWorkspace .game-modal.auto-arranged {
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 0 10px !important;
+    border-radius: 15px;
+  }
+  #gameWorkspace .game-modal.launching-game,
+  #gameWorkspace .game-modal.auto-arranged.launching-game {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    width: 100% !important;
+    height: min(76dvh,680px) !important;
+    min-height: 300px !important;
+    max-height: 76dvh !important;
+    overflow: hidden !important;
+  }
+  #gameWorkspace .game-modal.launching-game .game-launch-frame { display: block; flex: 1 1 auto; min-height: 0; width: 100%; overflow: hidden; }
+  #gameWorkspace .game-modal.launching-game .game-launch-frame iframe { width: 100%; height: 100%; }
+  #gameWorkspace .game-modal.modal-collapsed { width: 100% !important; flex: 0 0 42px; }
+}
+
+@media (min-width: 560px) and (max-width: 700px) {
+  .games { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .game-art { aspect-ratio: 1.08; }
+  .mobile-discovery-track { grid-auto-columns: minmax(140px, 27%); }
+}
+
+@media (max-width: 360px) {
+  header { padding-inline: 8px; }
+  .brand { font-size: 11px; gap: 5px; }
+  .brand-mark { width: 28px; height: 28px; }
+  .actions .btn { padding: 8px; }
+  .mobile-discovery-track { grid-auto-columns: minmax(118px, 46%); }
+}
