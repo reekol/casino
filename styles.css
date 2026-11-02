@@ -5923,3 +5923,116 @@ body[data-theme="default"] {
     pointer-events: auto;
   }
 }
+
+
+/* Mobile bottom navigation reuses the existing lobby anchors and active-state logic. */
+@media (max-width: 700px) {
+  header {
+    height: 62px;
+    padding: 0 12px;
+    gap: 8px;
+  }
+
+  .brand {
+    gap: 7px;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+  }
+
+  .brand-mark {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    font-size: 19px;
+  }
+
+  header .actions {
+    gap: 6px;
+    min-width: 0;
+  }
+
+  header .balance,
+  header #signIn {
+    display: none;
+  }
+
+  nav.nav-links {
+    position: fixed;
+    z-index: 90;
+    right: 10px;
+    bottom: calc(8px + env(safe-area-inset-bottom));
+    left: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 3px;
+    padding: 7px 6px;
+    border: 1px solid color-mix(in srgb, var(--theme-accent, #f7d27a) 30%, var(--theme-line, #ffffff20));
+    border-radius: 17px;
+    background: color-mix(in srgb, var(--theme-panel, #13131e) 90%, transparent);
+    box-shadow: 0 10px 34px #0009, inset 0 1px 0 #ffffff12;
+    backdrop-filter: blur(22px) saturate(1.2);
+    -webkit-backdrop-filter: blur(22px) saturate(1.2);
+  }
+
+  nav.nav-links a {
+    display: flex;
+    min-width: 0;
+    min-height: 49px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 5px 2px;
+    border-radius: 11px;
+    color: var(--theme-muted, #aaa8ba);
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.1;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  nav.nav-links a::before {
+    display: block;
+    font-size: 17px;
+    line-height: 1;
+  }
+
+  nav.nav-links a[href="#lobby"]::before { content: "⌂"; }
+  nav.nav-links a[href="#games"]::before { content: "🎰"; }
+  nav.nav-links a[href="#favorites"]::before { content: "♡"; }
+  nav.nav-links a[href="#jackpot"]::before { content: "✦"; }
+
+  nav.nav-links a.active,
+  nav.nav-links a:focus-visible {
+    color: var(--theme-accent, #f7d27a);
+    background: color-mix(in srgb, var(--theme-accent, #f7d27a) 13%, transparent);
+    outline: none;
+  }
+
+  body {
+    padding-bottom: calc(76px + env(safe-area-inset-bottom));
+  }
+
+  footer {
+    margin-bottom: 8px;
+  }
+
+  #gameWorkspace.open {
+    z-index: 120;
+  }
+}
+
+@media (max-width: 360px) {
+  nav.nav-links {
+    right: 6px;
+    left: 6px;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+
+  nav.nav-links a {
+    font-size: 9px;
+  }
+}
