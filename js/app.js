@@ -908,7 +908,7 @@
             win.style.left = Math.max(264, Math.min(innerWidth - 540, 280 + offset * 34)) + 'px';
             win.style.top = Math.max(12, Math.min(innerHeight - 420, 80 + offset * 28)) + 'px';
         }
-        win.innerHTML = `<div class="window-bar"><span>♛ ROYAL REELS <span class="window-count">· ${escapeHtml(link.name)}</span></span><div class="window-controls"><button class="window-fullscreen" type="button" aria-label="Enter fullscreen" title="Enter fullscreen">⛶</button><button class="window-close" type="button" aria-label="Close window" title="Close window">×</button></div></div><div class="game-launch-frame" aria-label="${escapeHtml(link.name)}"></div>`;
+        win.innerHTML = `<div class="window-bar"><span>♛ ROYAL REELS <span class="window-count">· ${escapeHtml(link.name)}</span></span><div class="window-controls"><button class="window-fullscreen" type="button" aria-label="Enter fullscreen" title="Enter fullscreen">⛶</button><button class="window-collapse" type="button" aria-label="Collapse window" title="Collapse window" aria-expanded="true">−</button><button class="window-close" type="button" aria-label="Close window" title="Close window">×</button></div></div><div class="game-launch-frame" aria-label="${escapeHtml(link.name)}"></div>`;
         const frame = document.createElement('iframe');
         const frameUrl = new URL(link.url, document.baseURI);
         if (frameUrl.origin === location.origin) {
@@ -1328,6 +1328,16 @@
                 updateCompare();
             showModalCompareCount(win);
         });
+        const collapseButton = win.querySelector('.window-collapse');
+        if (collapseButton) {
+            collapseButton.addEventListener('click', () => {
+                const collapsed = win.classList.toggle('modal-collapsed');
+                collapseButton.textContent = collapsed ? '+' : '−';
+                collapseButton.setAttribute('aria-expanded', String(!collapsed));
+                collapseButton.setAttribute('aria-label', collapsed ? 'Expand window' : 'Collapse window');
+                collapseButton.title = collapsed ? 'Expand window' : 'Collapse window';
+            });
+        }
         win.querySelector('.window-close').addEventListener('click', () => closeWindow(title));
         const fullscreenButton = win.querySelector('.window-fullscreen');
         fullscreenButton.addEventListener('click', () => {
