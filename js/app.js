@@ -1338,16 +1338,6 @@
                 collapseButton.title = collapsed ? 'Expand window' : 'Collapse window';
             });
         }
-        const collapseButton = win.querySelector('.window-collapse');
-        if (collapseButton) {
-            collapseButton.addEventListener('click', () => {
-                const collapsed = win.classList.toggle('modal-collapsed');
-                collapseButton.textContent = collapsed ? '+' : '−';
-                collapseButton.setAttribute('aria-expanded', String(!collapsed));
-                collapseButton.setAttribute('aria-label', collapsed ? 'Expand window' : 'Collapse window');
-                collapseButton.title = collapsed ? 'Expand window' : 'Collapse window';
-            });
-        }
         win.querySelector('.window-close').addEventListener('click', () => closeWindow(title));
         const fullscreenButton = win.querySelector('.window-fullscreen');
         fullscreenButton.addEventListener('click', () => {
