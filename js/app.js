@@ -1684,9 +1684,15 @@
                 document.getElementById('games')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
             } else if (destination === 'compare') {
                 event.preventDefault();
+                const panel = document.getElementById('gameComparison');
                 const restore = document.getElementById('showComparison');
                 if (restore && !restore.hidden) restore.click();
-                document.getElementById('gameComparison')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                if (panel && !panel.hidden) {
+                    panel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else {
+                    toast('Pin games from the lobby to compare them here.');
+                    document.getElementById('games')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             }
         });
     }
