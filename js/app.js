@@ -1744,6 +1744,8 @@
                 document.getElementById('filters').scrollIntoView({ behavior: 'smooth', block: 'start' });
                 return;
             }
+            if (target === 'games' && activeFilter !== 'all')
+                applyFilter('all');
             const destination = document.getElementById(target === 'lobby' ? 'lobby' : target === 'games' ? 'games' : 'jackpot');
             destination?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
