@@ -5888,43 +5888,38 @@ body[data-theme="default"] {
 }
 
 
-/* Keep modal controls above loaded iframes so they remain clickable. */
-#gameWorkspace .game-modal,
-#gameWorkspace .custom-link-modal {
-  isolation: isolate;
-}
+/* Mobile iframe touch fix: the embedded game's surface must receive touch/pointer input. */
+@media (max-width: 700px) {
+  #gameWorkspace .game-modal.launching-game,
+  #gameWorkspace .custom-link-modal.launching-game {
+    touch-action: pan-x pan-y;
+  }
 
-#gameWorkspace .game-modal .window-bar,
-#gameWorkspace .custom-link-modal .window-bar {
-  position: relative;
-  z-index: 100;
-}
+  #gameWorkspace .game-modal .game-launch-frame,
+  #gameWorkspace .custom-link-modal .game-launch-frame {
+    position: relative !important;
+    z-index: 2 !important;
+    touch-action: auto !important;
+    pointer-events: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
 
-#gameWorkspace .game-modal .window-controls,
-#gameWorkspace .custom-link-modal .window-controls {
-  position: relative;
-  z-index: 101;
-  pointer-events: auto;
-}
+  #gameWorkspace .game-modal .game-launch-frame iframe,
+  #gameWorkspace .custom-link-modal .game-launch-frame iframe {
+    position: relative !important;
+    z-index: 3 !important;
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    touch-action: auto !important;
+    pointer-events: auto !important;
+  }
 
-#gameWorkspace .game-modal .game-launch-frame,
-#gameWorkspace .custom-link-modal .game-launch-frame {
-  position: relative;
-  z-index: 1;
-}
-
-#gameWorkspace .game-modal .game-launch-frame iframe,
-#gameWorkspace .custom-link-modal .game-launch-frame iframe {
-  z-index: 1;
-}
-
-#gameWorkspace .game-modal .window-fullscreen,
-#gameWorkspace .game-modal .window-collapse,
-#gameWorkspace .game-modal .window-close,
-#gameWorkspace .custom-link-modal .window-fullscreen,
-#gameWorkspace .custom-link-modal .window-collapse,
-#gameWorkspace .custom-link-modal .window-close {
-  position: relative;
-  z-index: 102;
-  pointer-events: auto !important;
+  /* Do not let modal drag/resize gestures capture touches inside the embedded game. */
+  #gameWorkspace .game-modal .game-launch-frame,
+  #gameWorkspace .game-modal .game-launch-frame *,
+  #gameWorkspace .custom-link-modal .game-launch-frame,
+  #gameWorkspace .custom-link-modal .game-launch-frame * {
+    pointer-events: auto;
+  }
 }
