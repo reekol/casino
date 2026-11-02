@@ -5923,3 +5923,183 @@ body[data-theme="default"] {
     pointer-events: auto;
   }
 }
+
+
+/* Adaptive mobile lobby: prioritize discovery and readable game artwork. */
+@media (max-width: 760px) {
+  main {
+    padding: 14px 12px 38px;
+  }
+
+  .hero {
+    min-height: 0;
+    grid-template-columns: minmax(0, 1fr);
+    border-radius: 20px;
+  }
+
+  .hero-copy {
+    padding: 25px 22px 10px;
+  }
+
+  .hero-copy h1 {
+    max-width: 540px;
+    margin: 12px 0;
+    font-size: clamp(32px, 8vw, 48px);
+    line-height: 1.02;
+    letter-spacing: -1.4px;
+  }
+
+  .hero-copy p {
+    max-width: 520px;
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .hero-cta {
+    flex-wrap: wrap;
+    margin-top: 17px;
+  }
+
+  .hero-art {
+    min-width: 0;
+    min-height: 190px;
+    height: 190px;
+    overflow: hidden;
+  }
+
+  .hero-art .halo {
+    width: 190px;
+  }
+
+  .hero-art .coin {
+    width: 52px;
+    height: 52px;
+    font-size: 25px;
+    border-width: 3px;
+  }
+
+  .slot-machine {
+    width: min(62%, 230px);
+    padding: 9px;
+    border-radius: 18px;
+  }
+
+  .reel {
+    height: 68px;
+    font-size: 30px;
+  }
+
+  .stats {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(175px, 1fr);
+    grid-template-columns: none;
+    gap: 9px;
+    margin: 14px -12px 25px;
+    padding: 0 12px 5px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+
+  .stats::-webkit-scrollbar { display: none; }
+
+  .stat {
+    min-width: 0;
+    padding: 12px;
+    gap: 10px;
+    border-radius: 13px;
+  }
+
+  .stat-icon {
+    width: 34px;
+    height: 34px;
+    flex: 0 0 34px;
+    font-size: 17px;
+  }
+
+  .stat strong { font-size: 14px; }
+
+  .section-head {
+    align-items: center;
+    margin: 22px 0 13px;
+  }
+
+  .section-head h2 { font-size: 21px; }
+  .section-head p { max-width: 30ch; line-height: 1.4; }
+
+  .homepage-custom-links {
+    margin-bottom: 15px;
+  }
+
+  .homepage-custom-link-list {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+    scrollbar-width: none;
+  }
+
+  .homepage-custom-link-list::-webkit-scrollbar { display: none; }
+
+  .filters {
+    flex-wrap: nowrap;
+    gap: 7px;
+    margin: 0 -12px 14px;
+    padding: 2px 12px 8px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+
+  .filters::-webkit-scrollbar { display: none; }
+
+  .filter {
+    flex: 0 0 auto;
+    min-height: 38px;
+    padding: 9px 13px;
+    white-space: nowrap;
+  }
+
+  .games {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 11px;
+  }
+
+  .game {
+    border-radius: 14px;
+  }
+
+  .game-art {
+    height: clamp(112px, 34vw, 165px);
+  }
+
+  .game-info {
+    padding: 10px 10px 12px;
+  }
+
+  .pagination {
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+  }
+
+  .competition,
+  .promo {
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 420px) {
+  main { padding-right: 10px; padding-left: 10px; }
+
+  .hero-copy { padding: 21px 17px 8px; }
+  .hero-art { min-height: 165px; height: 165px; }
+  .hero-art .coin { opacity: .65; }
+  .hero-cta .btn { min-height: 42px; padding: 10px 12px; }
+
+  .stats { margin-right: -10px; margin-left: -10px; padding-right: 10px; padding-left: 10px; }
+  .section-head h2 { font-size: 19px; }
+  .game-art { height: clamp(105px, 35vw, 140px); }
+  .game-info { padding: 9px; }
+}
