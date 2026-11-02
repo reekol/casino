@@ -6090,7 +6090,7 @@ body[data-theme="default"] {
     flex-direction: column;
     width: 100% !important;
     height: min(76dvh,680px) !important;
-    min-height: 300px !important;
+    min-height: min(300px,76dvh) !important;
     max-height: 76dvh !important;
     overflow: hidden !important;
   }
