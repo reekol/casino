@@ -480,7 +480,11 @@
         renderMobileDiscovery();
     }
     const recentPagesToRestore = [...new Set(recentGameEntries.map(item => item.page))].filter(page => page > 0 && page < gamePageFiles.length);
-    recentPagesToRestore.forEach(page => ensureGamePageLoaded(page + 1).then(renderMobileDiscovery).catch(error => console.warn('Unable to restore a recently played game:', error)));
+    if (recentPagesToRestore.length) {
+        Promise.all(recentPagesToRestore.map(page => ensureGamePageLoaded(page + 1)))
+            .then(() => { renderPagination(); renderMobileDiscovery(); })
+            .catch(error => console.warn('Unable to restore recently played games:', error));
+    }
     const comparisonSelection = new Set();
     let comparisonHiddenByUser = false;
     const comparisonPanel = document.getElementById('gameComparison');
