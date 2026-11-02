@@ -3,7 +3,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title data-i18n="royal_reels_casino_lobby"></title>
-<link href="./styles.css?v=homepage-custom-links-1" rel="stylesheet"/>
+<link href="./styles.css?v=adaptive-mobile-lobby-1" rel="stylesheet"/>
 </head>
 <body>
 <header>
@@ -118,6 +118,20 @@
 <div>
 <small data-i18n="lobby_status"></small><strong data-i18n="all_systems_go" style="color:#75e6ad"></strong>
 </div>
+</div>
+</section>
+<section class="mobile-discovery" id="mobileDiscovery" aria-label="Mobile game picks">
+<div class="mobile-discovery-shelf" id="recentlyPlayedShelf" hidden>
+<div class="mobile-discovery-heading"><h2 data-i18n="recently_played"></h2></div>
+<div class="mobile-discovery-track" id="recentlyPlayedTrack"></div>
+</div>
+<div class="mobile-discovery-shelf" id="mobileFavoritesShelf" hidden>
+<div class="mobile-discovery-heading"><h2 data-i18n="favorites"></h2></div>
+<div class="mobile-discovery-track" id="mobileFavoritesTrack"></div>
+</div>
+<div class="mobile-discovery-shelf" id="mobilePopularShelf" hidden>
+<div class="mobile-discovery-heading"><h2 data-i18n="popular"></h2></div>
+<div class="mobile-discovery-track" id="mobilePopularTrack"></div>
 </div>
 </section>
 <section id="games">
@@ -325,6 +339,12 @@
 </div>
 </aside>
 </div>
+<nav aria-label="Mobile navigation" class="mobile-bottom-nav" id="mobileBottomNav">
+<button class="is-active" type="button" data-mobile-target="lobby" aria-current="page"><span aria-hidden="true">♛</span><span data-i18n="lobby"></span></button>
+<button type="button" data-mobile-target="games"><span aria-hidden="true">🎰</span><span data-i18n="slots"></span></button>
+<button type="button" data-mobile-target="favorites"><span aria-hidden="true">♥</span><span data-i18n="favorites"></span></button>
+<button type="button" data-mobile-target="jackpot"><span aria-hidden="true">✦</span><span data-i18n="jackpot"></span></button>
+</nav>
 <footer>
 <div>
 <strong data-i18n="royal_reels_2"></strong><span data-i18n="a_showcase_casino_lobby_concept"></span></div>
