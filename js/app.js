@@ -384,6 +384,57 @@
     function escapeHistoryText(value) { return String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char])); }
     let activeFilter = 'all';
     let cards = [...document.querySelectorAll('.game')];
+    const RECENT_GAMES_KEY = 'royalReels.recentGames.v1';
+    const recentGameEntries = (() => {
+        try {
+            const saved = JSON.parse(localStorage.getItem(RECENT_GAMES_KEY) || '[]');
+            return Array.isArray(saved) ? saved.filter(item => item && typeof item.id === 'string' && Number.isInteger(item.page)) : [];
+        } catch { return []; }
+    })();
+    function renderMobileDiscovery() {
+        const shelves = [
+            { shelf: 'recentlyPlayedShelf', track: 'recentlyPlayedTrack', items: recentGameEntries.map(item => cards.find(card => card.dataset.gameId === item.id)).filter(Boolean).slice(0, 8) },
+            { shelf: 'mobileFavoritesShelf', track: 'mobileFavoritesTrack', items: cards.filter(card => card.querySelector('.heart')?.classList.contains('saved')).slice(0, 8) },
+            { shelf: 'mobilePopularShelf', track: 'mobilePopularTrack', items: cards.filter(card => card.dataset.tags.split(/\\s+/).includes('popular')).slice(0, 8) }
+        ];
+        shelves.forEach(({ shelf: shelfId, track: trackId, items }) => {
+            const shelf = document.getElementById(shelfId), track = document.getElementById(trackId);
+            if (!shelf || !track) return;
+            track.replaceChildren();
+            items.forEach(card => {
+                const title = card.querySelector('.game-title')?.textContent || card.dataset.gameName || 'Game';
+                const source = card.querySelector('.game-symbol');
+                const button = document.createElement('button');
+                button.type = 'button';
+                button.className = 'mobile-discovery-card';
+                button.setAttribute('aria-label', `Open ${title}`);
+                const image = document.createElement('img');
+                image.src = source?.currentSrc || source?.src || './thumbnails/default.svg';
+                image.alt = '';
+                image.loading = 'lazy';
+                image.onerror = () => { image.onerror = null; image.src = './thumbnails/default.svg'; };
+                const name = document.createElement('span');
+                name.textContent = title;
+                const meta = document.createElement('small');
+                meta.textContent = card.querySelector('.game-meta span')?.textContent || '';
+                button.append(image, name, meta);
+                button.addEventListener('click', () => openGame(card));
+                track.appendChild(button);
+            });
+            shelf.hidden = items.length === 0;
+        });
+    }
+    function rememberRecentlyPlayed(card) {
+        const id = card?.dataset.gameId;
+        if (!id) return;
+        const entry = { id, page: Number(card.dataset.pageIndex) || 0 };
+        const previous = recentGameEntries.findIndex(item => item.id === id);
+        if (previous >= 0) recentGameEntries.splice(previous, 1);
+        recentGameEntries.unshift(entry);
+        recentGameEntries.length = Math.min(recentGameEntries.length, 12);
+        try { localStorage.setItem(RECENT_GAMES_KEY, JSON.stringify(recentGameEntries)); } catch { /* Storage can be unavailable in private browsing. */ }
+        renderMobileDiscovery();
+    }
     async function ensureGamePageLoaded(pageNumber) {
         const index = pageNumber - 1;
         if (index < 0 || index >= gamePageFiles.length)
@@ -426,7 +477,10 @@
             }
         });
         cards = [...document.querySelectorAll('.game')];
+        renderMobileDiscovery();
     }
+    const recentPagesToRestore = [...new Set(recentGameEntries.map(item => item.page))].filter(page => page > 0 && page < gamePageFiles.length);
+    recentPagesToRestore.forEach(page => ensureGamePageLoaded(page + 1).then(renderMobileDiscovery).catch(error => console.warn('Unable to restore a recently played game:', error)));
     const comparisonSelection = new Set();
     let comparisonHiddenByUser = false;
     const comparisonPanel = document.getElementById('gameComparison');
@@ -1106,6 +1160,7 @@
             b.setAttribute('aria-pressed', String(saved));
             toast(saved ? 'Added to favorites' : 'Removed from favorites');
             renderComparison();
+            renderMobileDiscovery();
             if (activeFilter === 'favorites')
                 applyFilter('favorites');
             else
@@ -1118,6 +1173,7 @@
         });
     }
     cards.forEach(bindGameCard);
+    renderMobileDiscovery();
     document.getElementById('signIn').addEventListener('click', () => toast(`Demo data loaded: ${usersData.users.length} sample users and ${usersData.users.reduce((sum, user) => sum + user.transactions.length, 0)} sample transactions in users.json. Sign-in is not enabled in this static build.`));
     async function openGameFromPath() {
         const match = location.pathname.match(/^\/g:([A-Za-z0-9]{8})\/?$/);
@@ -1241,6 +1297,7 @@
         "Mystic Spellbook": "Open a magical spellbook surrounded by violet glow, arcane symbols, and enchanted atmosphere."
     };
     function openGame(card) {
+        rememberRecentlyPlayed(card);
         const title = card.querySelector('.game-title').textContent;
         if (openWindows.has(title)) {
             focusWindow(openWindows.get(title));
@@ -1312,6 +1369,7 @@
             updateFav();
             toast(saved ? 'Added to favorites' : 'Removed from favorites');
             renderComparison();
+            renderMobileDiscovery();
             // Only rebuild the filtered view when the Favorites filter is active.
             // Re-rendering pagination here also rebuilds the modal sidebar and causes a visible blink.
             if (activeFilter === 'favorites')
@@ -1664,6 +1722,29 @@
     // Decorative demo jackpot ticker
     let jackpot = 2485390;
     setInterval(() => { jackpot += Math.floor(Math.random() * 8) + 1; document.getElementById('jackpotValue').textContent = 'GC ' + jackpot.toLocaleString('en-US'); }, 2400);
+    function initMobileBottomNavigation() {
+        const nav = document.getElementById('mobileBottomNav');
+        if (!nav) return;
+        nav.addEventListener('click', event => {
+            const button = event.target.closest('[data-mobile-target]');
+            if (!button) return;
+            const target = button.dataset.mobileTarget;
+            nav.querySelectorAll('[data-mobile-target]').forEach(item => {
+                const active = item === button;
+                item.classList.toggle('is-active', active);
+                if (active) item.setAttribute('aria-current', 'page');
+                else item.removeAttribute('aria-current');
+            });
+            if (target === 'favorites') {
+                applyFilter('favorites');
+                document.getElementById('filters').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                return;
+            }
+            const destination = document.getElementById(target === 'lobby' ? 'lobby' : target === 'games' ? 'games' : 'jackpot');
+            destination?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    }
+    initMobileBottomNavigation();
     initWorkspaceSidebarToggle();
     renderHomepageCustomLinks();
 })();
