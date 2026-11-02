@@ -5821,3 +5821,68 @@ body[data-theme="default"] {
 .theme-picker-chevron {
   display: block !important;
 }
+
+
+/* Collapsible workspace modals: keep the title bar visible as the compact state. */
+#gameWorkspace .window-collapse {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  min-width: 30px;
+  padding: 0;
+  border: 1px solid #f7d27a45;
+  border-radius: 9px;
+  background: linear-gradient(145deg,#30223b,#17111f);
+  color: #f7d27a;
+  font-size: 21px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background .16s,border-color .16s,transform .16s;
+}
+
+#gameWorkspace .window-collapse:hover {
+  background: linear-gradient(145deg,#59406a,#2a1c35);
+  border-color: #f7d27a;
+  transform: translateY(-1px);
+}
+
+#gameWorkspace .window-collapse:active {
+  transform: scale(.95);
+}
+
+#gameWorkspace .window-collapse:focus-visible {
+  outline: 2px solid #f7d27a;
+  outline-offset: 2px;
+}
+
+#gameWorkspace .game-modal.modal-collapsed {
+  min-height: 0 !important;
+  height: 34px !important;
+  max-height: 34px !important;
+  overflow: hidden !important;
+  resize: none !important;
+}
+
+#gameWorkspace .game-modal.modal-collapsed > :not(.window-bar) {
+  display: none !important;
+}
+
+#gameWorkspace .game-modal.modal-collapsed .window-bar {
+  border-bottom: 0;
+}
+
+@media (max-width:700px) {
+  #gameWorkspace .game-modal.modal-collapsed {
+    width: 100% !important;
+    height: 42px !important;
+    max-height: 42px !important;
+    margin-bottom: 8px !important;
+  }
+
+  #gameWorkspace .game-modal.modal-collapsed .window-bar {
+    min-height: 42px;
+  }
+}
