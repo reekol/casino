@@ -395,7 +395,7 @@
         const shelves = [
             { shelf: 'recentlyPlayedShelf', track: 'recentlyPlayedTrack', items: recentGameEntries.map(item => cards.find(card => card.dataset.gameId === item.id)).filter(Boolean).slice(0, 8) },
             { shelf: 'mobileFavoritesShelf', track: 'mobileFavoritesTrack', items: cards.filter(card => card.querySelector('.heart')?.classList.contains('saved')).slice(0, 8) },
-            { shelf: 'mobilePopularShelf', track: 'mobilePopularTrack', items: cards.filter(card => card.dataset.tags.split(/\\s+/).includes('popular')).slice(0, 8) }
+            { shelf: 'mobilePopularShelf', track: 'mobilePopularTrack', items: cards.filter(card => card.dataset.tags.split(/\s+/).includes('popular')).slice(0, 8) }
         ];
         shelves.forEach(({ shelf: shelfId, track: trackId, items }) => {
             const shelf = document.getElementById(shelfId), track = document.getElementById(trackId);
