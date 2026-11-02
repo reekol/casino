@@ -5923,3 +5923,206 @@ body[data-theme="default"] {
     pointer-events: auto;
   }
 }
+
+
+/* Mobile workspace: compact catalog controls and a true viewport-sized game stage. */
+@media (max-width: 700px) {
+  #gameWorkspace.open {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 8px;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    padding: max(8px, env(safe-area-inset-top)) 8px max(8px, env(safe-area-inset-bottom));
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  #gameWorkspace .workspace-toolbar {
+    position: sticky;
+    top: 0;
+    right: auto;
+    z-index: 1000;
+    align-self: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin: 0;
+    padding: 7px 9px;
+  }
+
+  #gameWorkspace .workspace-toolbar .btn {
+    min-height: 36px;
+    padding: 8px 10px;
+  }
+
+  #gameWorkspace .workspace-sidebar {
+    position: relative;
+    inset: auto;
+    order: 0;
+    width: 100%;
+    max-height: none;
+    min-height: 0;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: visible;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  #gameWorkspace .workspace-sidebar-toggle {
+    min-height: 42px;
+    padding: 9px 12px;
+  }
+
+  #gameWorkspace .workspace-sidebar-content {
+    max-height: min(42dvh, 330px);
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+
+  #gameWorkspace .workspace-sidebar.is-expanded .workspace-sidebar-content {
+    max-height: min(42dvh, 330px);
+    overflow: auto;
+  }
+
+  #gameWorkspace .workspace-game-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-height: none;
+    overflow: visible;
+  }
+
+  #gameWorkspace .workspace-game-item {
+    min-height: 48px;
+    gap: 7px;
+    padding: 6px;
+  }
+
+  #gameWorkspace .workspace-game-item img {
+    flex-basis: 34px;
+    width: 34px;
+    height: 34px;
+  }
+
+  #gameWorkspace .game-modal,
+  #gameWorkspace .game-modal.auto-arranged {
+    position: relative !important;
+    inset: auto !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+    max-height: none !important;
+    flex: 0 0 auto;
+    margin: 0 0 8px !important;
+    overflow: hidden !important;
+    resize: none !important;
+    border-radius: 15px;
+  }
+
+  #gameWorkspace .game-modal .window-bar {
+    min-height: 44px;
+    height: 44px;
+    padding: 4px 7px 4px 10px;
+    touch-action: manipulation;
+  }
+
+  #gameWorkspace .game-modal .window-title {
+    min-width: 0;
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #gameWorkspace .game-modal .window-controls {
+    flex: 0 0 auto;
+    gap: 5px;
+  }
+
+  #gameWorkspace .game-modal .window-controls button {
+    width: 34px;
+    min-width: 34px;
+    height: 34px;
+    min-height: 34px;
+  }
+
+  #gameWorkspace .game-modal .modal-hero {
+    min-height: 135px !important;
+  }
+
+  #gameWorkspace .game-modal .modal-copy {
+    padding: 12px 13px 14px;
+  }
+
+  #gameWorkspace .game-modal .modal-actions,
+  #gameWorkspace .game-modal .integration-state-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px;
+  }
+
+  #gameWorkspace .game-modal .modal-actions .btn,
+  #gameWorkspace .game-modal .integration-state-actions .btn {
+    min-height: 44px;
+    padding: 10px 7px;
+    font-size: 12px;
+  }
+
+  #gameWorkspace .game-modal.launching-game,
+  #gameWorkspace .game-modal.auto-arranged.launching-game {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    height: calc(100dvh - 156px) !important;
+    min-height: 240px !important;
+    max-height: none !important;
+    flex: 1 1 auto;
+    margin: 0 !important;
+    overflow: hidden !important;
+  }
+
+  #gameWorkspace .game-modal.launching-game .window-bar {
+    flex: 0 0 44px;
+  }
+
+  #gameWorkspace .game-modal.launching-game .game-launch-frame {
+    display: block;
+    position: relative;
+    flex: 1 1 auto;
+    min-height: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #gameWorkspace .game-modal.launching-game .game-launch-frame iframe {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  #gameWorkspace .game-modal.modal-collapsed {
+    flex: 0 0 44px;
+    width: 100% !important;
+    height: 44px !important;
+    max-height: 44px !important;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 380px) {
+  #gameWorkspace .game-modal .modal-actions,
+  #gameWorkspace .game-modal .integration-state-actions {
+    grid-template-columns: 1fr;
+  }
+}
