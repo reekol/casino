@@ -1,5 +1,9 @@
 [
   {
+    "name": "&#128250; SpaceEntropy",
+    "url":"https://games.dev.seqr.link/fe/SpaceEntropy_3x3/broadcastReceiver"
+  },
+  {
     "name": "Casino Landing",
     "url": "./pages/casino-landing.html"
   },
